@@ -1,0 +1,12 @@
+﻿//----- song ID: feel -----//
+#TITLE:feeling of love;
+#ARTIST:youhei shimizu;
+#BANNER:feeling of love.png;
+#BACKGROUND:feeling of love-bg.png;
+#CDTITLE:./CDTITLES/beatmaniaIII.PNG;
+#MUSIC:feeling of love.ogg;
+#SAMPLESTART:47.471;
+#SAMPLELENGTH:15;
+#DISPLAYBPM:136;
+#BPMS:0=136,4=136.211;
+

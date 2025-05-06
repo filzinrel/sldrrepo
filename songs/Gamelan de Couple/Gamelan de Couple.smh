@@ -1,0 +1,22 @@
+﻿#TITLE:Gamelan de Couple;
+#SUBTITLE:;
+#ARTIST:TOMOSUKE;
+#TITLETRANSLIT:;
+#SUBTITLETRANSLIT:;
+#ARTISTTRANSLIT:;
+#CREDIT:;
+#BANNER:Gamelan de Couple.png;
+#BACKGROUND:Gamelan de Couple-bg.png;
+#LYRICSPATH:;
+#CDTITLE:./CDTITLES/MAMBO A GO GO.PNG;
+#MUSIC:Gamelan de Couple.ogg;
+#OFFSET:0.000;
+#SAMPLESTART:30.400;
+#SAMPLELENGTH:15.000;
+#SELECTABLE:YES;
+#DISPLAYBPM:150.000;
+#BPMS:0.000=150.000,4.000=150.000;
+#STOPS:;
+#BGCHANGES:;
+
+//---------------dance-single - ----------------

@@ -1,0 +1,13 @@
+﻿//----- song ID: maho -----//
+#TITLE:魔法の扉(スペース☆マコのテーマ);
+#ARTIST:a.s.a.;
+#TITLETRANSLIT:Mahou no tobira(SPACE MACO no theme);
+#BANNER:Mahou no tobira(SPACE MACO no theme).png;
+#BACKGROUND:Mahou no tobira(SPACE MACO no theme)-bg.png;
+#CDTITLE:./CDTITLES/POP'N MUSIC.PNG;
+#MUSIC:Mahou no tobira(SPACE MACO no theme).ogg;
+#SAMPLESTART:13.035;
+#SAMPLELENGTH:15;
+#DISPLAYBPM:184;
+#BPMS:0=183.4,4=184;
+

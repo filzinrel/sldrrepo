@@ -1,0 +1,11 @@
+﻿//----- song id: kind
+#TITLE:Kind Lady;
+#ARTIST:OKUYATOS;
+#BANNER:Kind Lady.png;
+#BACKGROUND:Kind Lady-bg.png;
+#CDTITLE:./CDTitles/DANCE DANCE REVOLUTION HOME VERSION.png;
+#MUSIC:Kind Lady.ogg;
+#SAMPLESTART:44.457;
+#SAMPLELENGTH:15;
+#BPMS:0=135;
+

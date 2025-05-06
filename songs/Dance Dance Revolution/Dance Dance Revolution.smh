@@ -1,0 +1,12 @@
+﻿#TITLE:Dance Dance Revolution;
+#ARTIST:DDR ALL STARS;
+#BANNER:Dance Dance Revolution.png;
+#BACKGROUND:Dance Dance Revolution-bg.png;
+#CDTITLE:./CDTITLES/DANCE DANCE REVOLUTION EXTREME.PNG;
+#MUSIC:Dance Dance Revolution.ogg;
+#SAMPLESTART:28.801;
+#SAMPLELENGTH:15;
+#DISPLAYBPM:150;
+#BPMS:0=150,4=150;
+
+//---------------dance-single - ----------------

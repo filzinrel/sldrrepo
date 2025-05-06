@@ -1,0 +1,11 @@
+﻿//----- song ID: hold -----//
+#TITLE:HOLD ON ME;
+#ARTIST:tiger yamato;
+#BANNER:HOLD ON ME.png;
+#BACKGROUND:HOLD ON ME-bg.png;
+#CDTITLE:./CDTITLES/ParaParaParadise.PNG;
+#MUSIC:HOLD ON ME.ogg;
+#SAMPLESTART:63.134;
+#SAMPLELENGTH:15;
+#BPMS:0=152;
+

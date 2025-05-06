@@ -1,0 +1,13 @@
+﻿#TITLE:三毛猫ロック;
+#ARTIST:亜熱帯マジ-SKA爆弾;
+#TITLETRANSLIT:Mikeneko rock;
+#ARTISTTRANSLIT:Annetai maji-SKA bakudan;
+#BANNER:Mikeneko rock.png;
+#BACKGROUND:Mikeneko rock-bg.png;
+#CDTITLE:./CDTITLES/GUITARFREAKS & drummania.PNG;
+#MUSIC:Mikeneko rock.ogg;
+#SAMPLESTART:6.839;
+#SAMPLELENGTH:15;
+#DISPLAYBPM:246;
+#BPMS:0=246.575,4=245.993,328=250,374=183.673,376=152.059;
+

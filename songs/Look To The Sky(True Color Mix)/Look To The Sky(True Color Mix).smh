@@ -1,0 +1,12 @@
+﻿//----- song ID: loo2 -----//
+#TITLE:Look To The Sky(True Color Mix);
+#ARTIST:SySF. feat.Anna;
+#BANNER:Look To The Sky(True Color Mix).png;
+#BACKGROUND:Look To The Sky(True Color Mix)-bg.png;
+#CDTITLE:./CDTITLES/DANCE DANCE REVOLUTION HOME VERSION.PNG;
+#MUSIC:Look To The Sky(True Color Mix).ogg;
+#SAMPLESTART:22.287;
+#SAMPLELENGTH:15;
+#DISPLAYBPM:140;
+#BPMS:0=140,180=138,181=140;
+

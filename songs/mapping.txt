@@ -8,8 +8,6 @@ Colors ~for EXTREME~|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/h
 HOLIDAY|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/HOLIDAY/
 HYPER EUROBEAT|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/HYPER EUROBEAT/
 Miracle Moon ~L.E.D.LIGHT STYLE MIX~|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/Miracle Moon ~L.E.D.LIGHT STYLE MIX~/
-MOBO MOGA|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/MOBO MOGA/
-MR. WONDERFUL|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/MR. WONDERFUL/
 OH NICK PLEASE NOT SO QUICK|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/OH NICK PLEASE NOT SO QUICK/
 OPERATOR|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/OPERATOR/
 PARANOiA Rebirth|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/PARANOiA Rebirth/
@@ -19,27 +17,5 @@ Pink Rose|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/s
 ROCK BEAT|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/ROCK BEAT/
 SAKURA|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/SAKURA/
 SENORITA(Speedy Mix)|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/SENORITA(Speedy Mix)/
-Silent Hill|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/Silent Hill/
 SO IN LOVE|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/SO IN LOVE/
 SO MANY MEN|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/SO MANY MEN/
-SPEED OVER BEETHOVEN|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/SPEED OVER BEETHOVEN/
-STAY (Organic house Version)|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/STAY (Organic house Version)/
-stoic (EXTREME version)|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/stoic (EXTREME version)/
-sync (EXTREME version)|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/sync (EXTREME version)/
-TEARS|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/TEARS/
-The Least 100sec|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/The Least 100sec/
-The legend of MAX|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/The legend of MAX/
-THE RACE|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/THE RACE/
-TRIP MACHINE survivor|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/TRIP MACHINE survivor/
-TURN ME ON (HEAVENLY MIX)|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/TURN ME ON (HEAVENLY MIX)/
-Twin Bee -Generation X-|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/Twin Bee -Generation X-/
-UPSIDE DOWN|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/UPSIDE DOWN/
-V ~for EXTREME~|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/V ~for EXTREME~/
-VANITY ANGEL|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/VANITY ANGEL/
-VOL.4|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/VOL.4/
-WE ARE THE CHAMPIONS (Factory Team Remix)|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/WE ARE THE CHAMPIONS (Factory Team Remix)/
-WE WILL ROCK YOU|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/WE WILL ROCK YOU/
-White Lovers|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/White Lovers/
-WONDERLAND (UKS MIX)|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/WONDERLAND (UKS MIX)/
-XANADU|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/XANADU/
-xenon|https://raw.githubusercontent.com/filzinrel/sldrrepo/refs/heads/main/songs/xenon/

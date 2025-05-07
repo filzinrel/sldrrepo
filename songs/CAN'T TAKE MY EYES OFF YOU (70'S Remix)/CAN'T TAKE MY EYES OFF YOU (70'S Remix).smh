@@ -1,0 +1,13 @@
+﻿//----- song ID: cant -----//
+#TITLE:CAN'T TAKE MY EYES OFF YOU (70's Remix);
+#ARTIST:BEAT BOX;
+#BANNER:CAN'T TAKE MY EYES OFF YOU (70's Remix).png;
+#BACKGROUND:CAN'T TAKE MY EYES OFF YOU (70's Remix)-bg.png;
+#CDTITLE:./CDTITLES/Dancemania X2.png;
+#MUSIC:CAN'T TAKE MY EYES OFF YOU (70's Remix).ogg;
+#SAMPLESTART:16.563;
+#SAMPLELENGTH:15;
+#DISPLAYBPM:134;
+#BPMS:0=134.3,4=134;
+
+//---------------dance-single - ----------------

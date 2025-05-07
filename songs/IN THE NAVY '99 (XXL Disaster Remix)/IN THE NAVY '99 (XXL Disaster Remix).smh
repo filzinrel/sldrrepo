@@ -1,0 +1,14 @@
+﻿//----- song ID: inth -----//
+#TITLE:IN THE NAVY '99 (XXL Disaster Remix);
+#ARTIST:CAPTAIN JACK;
+#BANNER:IN THE NAVY '99 (XXL Disaster Remix).png;
+#BACKGROUND:IN THE NAVY '99 (XXL Disaster Remix)-bg.png;
+#CDTITLE:./CDTITLES/DANCEMANIA 13.PNG;
+#MUSIC:IN THE NAVY '99 (XXL Disaster Remix).ogg;
+#SAMPLESTART:19.111;
+#SAMPLELENGTH:15;
+#DISPLAYBPM:135;
+#BPMS:0=134.8,4=135;
+#BGCHANGES:4=IN THE NAVY '99 (XXL Disaster Remix).avi=1.2=0=0=0,216=IN THE NAVY '99 (XXL Disaster Remix)-bg.png=1=0=0=1;
+
+//---------------dance-single - ----------------

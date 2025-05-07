@@ -1,0 +1,13 @@
+﻿//----- song ID: lase -----//
+#TITLE:La Señorita;
+#ARTIST:CAPTAIN.T;
+#BANNER:La Senorita.png;
+#BACKGROUND:La Senorita-bg.png;
+#CDTITLE:./CDTITLES/DANCE DANCE REVOLUTION 3RDMIX.PNG;
+#MUSIC:La Senorita.ogg;
+#SAMPLESTART:35.108;
+#SAMPLELENGTH:15;
+#DISPLAYBPM:182;
+#BPMS:0=182.048,16=182.01;
+
+//---------------dance-single - ----------------

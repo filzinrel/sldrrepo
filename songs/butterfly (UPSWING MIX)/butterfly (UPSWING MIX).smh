@@ -1,0 +1,14 @@
+﻿//----- song ID: hbut -----//
+#TITLE:butterfly (UPSWING MIX);
+#ARTIST:SMILE.dk;
+#BANNER:butterfly (UPSWING MIX).png;
+#BACKGROUND:butterfly (UPSWING MIX)-bg.png;
+#CDTITLE:./CDTITLES/Dancemania SPEED 2.png
+#MUSIC:butterfly (UPSWING MIX).ogg;
+#SAMPLESTART:7.058;
+#SAMPLELENGTH:15;
+#DISPLAYBPM:170;
+#BPMS:0=170.009;
+#BGCHANGES:3.75=butterfly (UPSWING MIX).avi=1=1=0=0;
+
+//---------------dance-single - ----------------

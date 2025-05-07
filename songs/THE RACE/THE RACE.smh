@@ -1,0 +1,13 @@
+﻿//----- song ID: race -----//
+#TITLE:THE RACE;
+#ARTIST:CAPTAIN JACK;
+#BANNER:THE RACE.png;
+#BACKGROUND:THE RACE-bg.png;
+#CDTITLE:./CDTITLES/DANCEMANIA 14.PNG;
+#MUSIC:THE RACE.ogg;
+#SAMPLESTART:49.921;
+#SAMPLELENGTH:15;
+#DISPLAYBPM:143;
+#BPMS:0=143,4=143.02;
+
+//---------------dance-single - ----------------

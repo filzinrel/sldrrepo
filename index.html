@@ -1,0 +1,36 @@
+<html>
+  <body>
+    <video
+      style="width: 100%; height: 100%"
+      width="560"
+      height="315"
+      autoplay
+      controls
+      id="main-video"
+    >
+      <source type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <script>
+      function getAnchorFromURL(url) {
+        try {
+          const urlObject = new URL(url);
+          return urlObject.hash.replace("#", "");
+        } catch (error) {
+          // Handle cases where the URL is invalid
+          console.error("Invalid URL:", error);
+          return ""; // Or handle the error as needed
+        }
+      }
+      (function () {
+        let vid = document.getElementById("main-video");
+        const url = window.location;
+        var source = getAnchorFromURL(url);
+        vid.src = `songs/${source}/${source}.mp4`;
+        setTimeout(() => {
+          vid.play();
+        }, 2000);
+      })();
+    </script>
+  </body>
+</html>

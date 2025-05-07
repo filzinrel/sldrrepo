@@ -1,0 +1,13 @@
+﻿//----- song ID: oper -----//
+#TITLE:OPERATOR;
+#ARTIST:PAPAYA;
+#BANNER:OPERATOR.png;
+#BACKGROUND:OPERATOR-bg.png;
+#CDTITLE:./CDTITLES/DANCEMANIA 13.PNG;
+#MUSIC:OPERATOR.ogg;
+#SAMPLESTART:58.678;
+#SAMPLELENGTH:15;
+#DISPLAYBPM:135;
+#BPMS:0=134.975;
+
+//---------------dance-single - ----------------

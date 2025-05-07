@@ -1,0 +1,13 @@
+﻿//----- song ID: dead -----//
+#TITLE:DEAD END;
+#ARTIST:N & S;
+#BANNER:DEAD END.png;
+#BACKGROUND:DEAD END-bg.png;
+#CDTITLE:./CDTITLES/DANCE DANCE REVOLUTION 3RDMIX.PNG;
+#MUSIC:DEAD END.ogg;
+#SAMPLESTART:54.317;
+#SAMPLELENGTH:15;
+#DISPLAYBPM:190;
+#BPMS:0=190.074,20=190.011;
+
+//---------------dance-single - ----------------

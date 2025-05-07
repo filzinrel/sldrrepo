@@ -1,0 +1,13 @@
+﻿//----- song ID: doit -----//
+#TITLE:DO IT ALL NIGHT;
+#ARTIST:E-ROTIC;
+#BANNER:DO IT ALL NIGHT.png;
+#BACKGROUND:DO IT ALL NIGHT-bg.png;
+#CDTITLE:./CDTITLES/DANCEMANIA 14.PNG;
+#MUSIC:DO IT ALL NIGHT.ogg;
+#SAMPLESTART:44.062;
+#SAMPLELENGTH:15;
+#DISPLAYBPM:143;
+#BPMS:0=142.3,4=142.98;
+
+//---------------dance-single - ----------------

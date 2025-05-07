@@ -1,0 +1,13 @@
+﻿//----- song ID: rebi -----//
+#TITLE:PARANOiA Rebirth;
+#ARTIST:190';
+#BANNER:PARANOiA Rebirth.png;
+#BACKGROUND:PARANOiA Rebirth-bg.png;
+#CDTITLE:./CDTITLES/DANCE DANCE REVOLUTION 3RDMIX.PNG;
+#MUSIC:PARANOiA Rebirth.ogg;
+#SAMPLESTART:1.269;
+#SAMPLELENGTH:15;
+#DISPLAYBPM:190;
+#BPMS:0=190.074,20=190.011;
+
+//---------------dance-single - ----------------

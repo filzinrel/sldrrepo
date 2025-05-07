@@ -1,0 +1,12 @@
+﻿//----- song ID: sile -----//
+#TITLE:Silent Hill;
+#ARTIST:THOMAS HOWARD;
+#BANNER:Silent Hill.png;
+#BACKGROUND:Silent Hill-bg.png;
+#CDTITLE:./CDTITLES/DANCE DANCE REVOLUTION 3RDMIX.PNG;
+#MUSIC:Silent Hill.ogg;
+#SAMPLESTART:33.09;
+#SAMPLELENGTH:15;
+#BPMS:0=125;
+
+//---------------dance-single - ----------------

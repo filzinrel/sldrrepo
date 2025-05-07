@@ -1,0 +1,14 @@
+﻿//----- song ID: hboo -----//
+#TITLE:BOOM BOOM DOLLAR (K.O.G G3 MIX);
+#ARTIST:King Kong & D.Jungle Girls;
+#BANNER:BOOM BOOM DOLLAR (K.O.G G3 MIX).png;
+#BACKGROUND:BOOM BOOM DOLLAR (K.O.G G3 MIX)-bg.png;
+#CDTITLE:./CDTITLES/Dancemania SPEED 3.png
+#MUSIC:BOOM BOOM DOLLAR (K.O.G G3 MIX).ogg;
+#SAMPLESTART:35.3;
+#SAMPLELENGTH:15;
+#DISPLAYBPM:170;
+#BPMS:0=169.8,4=169.98;
+#BGCHANGES:2.75=BOOM BOOM DOLLAR (K.O.G G3 MIX).avi=1=1=0=0;
+
+//---------------dance-single - ----------------

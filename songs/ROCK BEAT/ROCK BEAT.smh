@@ -1,0 +1,12 @@
+﻿//----- song ID: rock -----//
+#TITLE:ROCK BEAT;
+#ARTIST:LOUD FORCE;
+#BANNER:ROCK BEAT.png;
+#BACKGROUND:ROCK BEAT-bg.png;
+#CDTITLE:./CDTitles/DANCEMANIA 14.png;
+#MUSIC:ROCK BEAT.ogg;
+#SAMPLESTART:30.4;
+#SAMPLELENGTH:15;
+#BPMS:0=150;
+
+//---------------dance-single - ----------------

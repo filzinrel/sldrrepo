@@ -1,0 +1,12 @@
+﻿//----- song ID: afro -----//
+#TITLE:AFRONOVA;
+#ARTIST:RE-VENGE;
+#BANNER:AFRONOVA.png;
+#BACKGROUND:AFRONOVA-bg.png;
+#CDTITLE:./CDTITLES/DANCE DANCE REVOLUTION 3RDMIX.PNG;
+#MUSIC:AFRONOVA.ogg;
+#SAMPLESTART:30;
+#SAMPLELENGTH:15;
+#BPMS:0=200;
+
+//---------------dance-single - ----------------

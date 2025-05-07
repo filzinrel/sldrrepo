@@ -1,0 +1,13 @@
+﻿//----- song ID: holi -----//
+#TITLE:HOLIDAY;
+#ARTIST:WHO'S THAT GIRL!;
+#BANNER:HOLIDAY.png;
+#BACKGROUND:HOLIDAY-bg.png;
+#CDTITLE:./CDTITLES/ZIPMANIA II.PNG;
+#MUSIC:HOLIDAY.ogg;
+#SAMPLESTART:16.407;
+#SAMPLELENGTH:15;
+#DISPLAYBPM:128;
+#BPMS:0=128.3,4=128;
+
+//---------------dance-single - ----------------

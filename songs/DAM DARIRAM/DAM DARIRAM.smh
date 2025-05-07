@@ -1,0 +1,13 @@
+﻿//----- song ID: damd -----//
+#TITLE:DAM DARIRAM;
+#ARTIST:JOGA;
+#BANNER:DAM DARIRAM.png;
+#BACKGROUND:DAM DARIRAM-bg.png;
+#CDTITLE:./CDTITLES/DANCEMANIA 13.PNG;
+#MUSIC:DAM DARIRAM.ogg;
+#SAMPLESTART:56.69;
+#SAMPLELENGTH:15;
+#DISPLAYBPM:142;
+#BPMS:0=142.352;
+
+//---------------dance-single - ----------------

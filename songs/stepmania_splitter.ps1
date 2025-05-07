@@ -43,6 +43,40 @@ Get-ChildItem -Path $RootPath -Filter *.sm -Recurse -File |
     Write-Host "  Cleaned doubles in $file"
   }
 
+  
+# 2b) Strip out any dance-solo sections from .sm files
+Write-Host "Removing all dance-double sections from .sm files..."
+Get-ChildItem -Path $RootPath -Filter *.sm -Recurse -File |
+  ForEach-Object {
+    $file     = $_.FullName
+    $lines    = Get-Content -Path $file -Encoding UTF8
+    $outLines = New-Object System.Collections.Generic.List[string]
+    $inDouble = $false
+
+    for ($i = 0; $i -lt $lines.Count; $i++) {
+      $line = $lines[$i]
+      if ($line.Trim() -match '^#NOTES:\s*$') {
+        # Peek one line ahead
+        if ($i + 1 -lt $lines.Count -and $lines[$i + 1].Trim() -eq 'dance-solo:') {
+          $inDouble = $true
+          continue
+        }
+      }
+      if ($inDouble) {
+        if ($line.Trim() -eq ';') {
+          # end of that dance-double block
+          $inDouble = $false
+        }
+        continue
+      }
+      $outLines.Add($line)
+    }
+
+    # Write back cleaned .sm
+    $outLines | Set-Content -Path $file -Encoding UTF8
+    Write-Host "  Cleaned doubles in $file"
+  }
+
 # 3) Split into .smh (header) and .smt (notes) files
 Write-Host "Splitting .sm into .smh/.smt..."
 Get-ChildItem -Path $RootPath -Filter *.sm -Recurse -File |

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SLDR Loading Screen</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #111;
+        font-family: "Orbitron", sans-serif;
+        color: #fff;
+      }
+
+      /* Vanta.js canvas */
+      #vanta {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+      }
+
+      /* Arrow layer */
+      #arrow-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 175%;
+        left: 0%;
+        height: 175%;
+        top: -75%;
+        pointer-events: none;
+        overflow: hidden;
+        z-index: 1;
+      }
+      #color-gradient {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          to bottom,
+          rgb(89, 242, 250) 0%,
+          rgba(255, 255, 255, 0.65) 15%,
+          rgba(0, 0, 0, 0) 50%,
+          rgba(255, 255, 255, 0.65) 65%,
+          rgb(89, 242, 250) 100%
+        );
+        z-index: 2;
+      }
+      .arrow,
+      .arrow-ghost {
+        position: absolute;
+        bottom: -7rem;
+        width: 7rem;
+        height: auto;
+        animation-name: rise;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        transform-origin: center center;
+      }
+      @keyframes rise {
+        from {
+          bottom: -3rem;
+        }
+        to {
+          bottom: 110vh;
+        }
+      }
+
+      /* Dim overlay */
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 2;
+      }
+
+      /* Centered content */
+      .wrapper {
+        position: relative;
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .logo {
+        font-size: 8rem;
+        font-weight: 700;
+        opacity: 0;
+        text-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5);
+      }
+      .prompt {
+        font-size: 2rem;
+        margin-top: 1rem;
+        opacity: 0;
+        text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="vanta"></div>
+    <div id="color-gradient"></div>
+    <div id="arrow-container"></div>
+    <div class="overlay"></div>
+    <div class="wrapper">
+      <div class="logo" id="logo">SLDR</div>
+      <div class="prompt" id="prompt">&lt;&lt; sit to start &gt;&gt;</div>
+    </div>
+
+    <!-- Dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.waves.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script>
+      // 1) Initialize Vanta with a starting color (light gray)
+      const vantaEffect = VANTA.WAVES({
+        el: "#vanta",
+        mouseControls: false,
+        touchControls: false,
+        gyroControls: false,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0xeeeeee,
+        shininess: 30,
+        waveHeight: 15,
+        waveSpeed: 1.2,
+        zoom: 0.8,
+      });
+
+      // 2) Fade Vanta's color through your palette
+      const palette = [
+        { r: 0xee, g: 0xee, b: 0xee }, // light gray
+        { r: 0x00, g: 0xbf, b: 0xff }, // blue
+        { r: 0xff, g: 0x99, b: 0xcc }, // pink
+        { r: 0x33, g: 0xcc, b: 0xcc }, // teal
+      ];
+      let idx = 0;
+      function tweenColor() {
+        const from = palette[idx];
+        idx = (idx + 1) % palette.length;
+        const to = palette[idx];
+        const temp = { r: from.r, g: from.g, b: from.b };
+        gsap.to(temp, {
+          r: to.r,
+          g: to.g,
+          b: to.b,
+          duration: 15,
+          ease: "none",
+          onUpdate() {
+            const hex =
+              ((Math.round(temp.r) & 0xff) << 16) |
+              ((Math.round(temp.g) & 0xff) << 8) |
+              (Math.round(temp.b) & 0xff);
+            vantaEffect.setOptions({ color: hex });
+          },
+          onComplete: tweenColor,
+        });
+      }
+      tweenColor();
+
+      // 3) Arrow image URL (DDR arrow)
+      const arrowImg = "sldr_arrow.png";
+
+      // 4) Spawn animated arrows
+      const arrowContainer = document.getElementById("arrow-container");
+      const rotations = [0, 90, 180, 270];
+      for (let i = 0; i < 20; i++) {
+        const a = document.createElement("img");
+        a.className = "arrow";
+        a.src = arrowImg;
+        a.style.left = Math.random() * 90 + "vw";
+        a.style.bottom = "-40%";
+        a.style.filter = `hue-rotate(${Math.random() * 360}deg)`;
+        a.style.transform = `rotate(${
+          rotations[Math.floor(Math.random() * 4)]
+        }deg)`;
+        const dur = 4 + Math.random() * 4;
+        a.style.animationDuration = 5 + "s";
+        const delay = "-" + Math.random() * dur + "s";
+        a.style.animationDelay = delay;
+        arrowContainer.appendChild(a);
+        // ghost clones
+        [1, 2].forEach((g) => {
+          const ghost = a.cloneNode();
+          ghost.className = "arrow-ghost ghost" + g;
+          // offset delay so trailing effect
+          ghost.style.animationDelay = `-${delay - g * 0.15}s`;
+          arrowContainer.appendChild(ghost);
+        });
+      }
+
+      // 5) Fade-in SLDR & prompt
+      window.addEventListener("load", () => {
+        gsap.to("#logo", {
+          duration: 1.5,
+          opacity: 1,
+          y: -20,
+          ease: "power2.out",
+        });
+        gsap.to("#prompt", {
+          duration: 1.0,
+          opacity: 1,
+          delay: 1.2,
+          y: -10,
+          ease: "power2.out",
+          repeat: -1,
+          yoyo: true,
+        });
+      });
+    </script>
+  </body>
+</html>

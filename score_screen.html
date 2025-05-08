@@ -148,9 +148,6 @@
       .label.good {
         color: #00bfff;
       }
-      .label.okay {
-        color: #ff00ff;
-      }
       .label.boo {
         color: #ff0000;
       }
@@ -202,10 +199,6 @@
               ><span class="value" id="goodVal">000</span>
             </div>
             <div>
-              <span class="label okay">OKAY</span
-              ><span class="value" id="okayVal">000</span>
-            </div>
-            <div>
               <span class="label boo">BOO</span
               ><span class="value" id="booVal">000</span>
             </div>
@@ -245,7 +238,6 @@
       const perfect = +p.get("perfect") || 0;
       const great = +p.get("great") || 0;
       const good = +p.get("good") || 0;
-      const okay = +p.get("okay") || 0;
       const boo = +p.get("boo") || 0;
       const miss = +p.get("miss") || 0;
       const title = p.get("title") || "UNKNOWN TRACK";
@@ -274,7 +266,6 @@
       const perfectEl = document.getElementById("perfectVal");
       const greatEl = document.getElementById("greatVal");
       const goodEl = document.getElementById("goodVal");
-      const okayEl = document.getElementById("okayVal");
       const booEl = document.getElementById("booVal");
       const missEl = document.getElementById("missVal");
 
@@ -305,7 +296,6 @@
         animate(perfectEl, perfect, 1, 3);
         animate(greatEl, great, 1, 3);
         animate(goodEl, good, 1, 3);
-        animate(okayEl, okay, 1, 3);
         animate(booEl, boo, 1, 3);
         animate(missEl, miss, 1, 3);
         // stop after 2.5s

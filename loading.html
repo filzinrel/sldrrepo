@@ -19,7 +19,26 @@
         font-family: "Orbitron", sans-serif;
         color: #fff;
       }
-
+      .wipe-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 700%;
+        height: 700%;
+        background: #fff;
+        transform-origin: top left;
+        transform: rotate(-45deg) translateX(0);
+        animation: wipe 4s ease-out forwards;
+        z-index: 9999;
+      }
+      @keyframes wipe {
+        from {
+          transform: rotate(-45deg) translateX(-50%);
+        }
+        to {
+          transform: rotate(-45deg) translateX(100%);
+        }
+      }
       /* Vanta.js canvas */
       #vanta {
         position: fixed;
@@ -43,6 +62,7 @@
         overflow: hidden;
         z-index: 1;
       }
+
       #color-gradient {
         position: fixed;
         top: 0;
@@ -118,6 +138,7 @@
   </head>
   <body>
     <div id="vanta"></div>
+    <div class="wipe-overlay"></div>
     <div id="color-gradient"></div>
     <div id="arrow-container"></div>
     <div class="overlay"></div>

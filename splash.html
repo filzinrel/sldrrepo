@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Filnami Splash</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 700%;
+        height: 700%;
+        background: #fff;
+        transform-origin: top left;
+        transform: rotate(-45deg) translateX(-50%);
+        animation: wipe 2s ease-out forwards;
+        z-index: 2;
+      }
+      @keyframes wipe {
+        to {
+          transform: rotate(-45deg) translateX(100%);
+        }
+      }
+      svg {
+        width: 80%;
+        max-width: 600px;
+        height: auto;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="overlay"></div>
+
+    <!-- SVG logo: orange wavy lines behind bold FILNAMI text -->
+    <svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+      <!-- Orange wave background -->
+      <defs>
+        <path
+          id="wave"
+          d="M0 40 Q50 0 100 40 T200 40 T300 40 T400 40 T500 40 T600 40 T700 40 T800 40 V200 H0 Z"
+        />
+      </defs>
+      <use href="#wave" fill="#FF8C00" x="0" y="-30" opacity="0.8" />
+      <use href="#wave" x="0" y="0" fill="#FFFF00" opacity=".6" />
+      <use href="#wave" x="0" y="30" fill="#FFA500" opacity=".6" />
+      <use href="#wave" x="0" y="60" fill="#FF2200" opacity=".6" />
+      <use href="#wave" x="0" y="90" fill="#FF0000" opacity=".6" />
+      <!-- FILNAMI text -->
+      <text
+        x="50%"
+        y="60%"
+        text-anchor="middle"
+        fill="#FFF"
+        font-family="Impact, Arial Black, sans-serif"
+        font-size="100"
+        letter-spacing="12"
+      >
+        FILNAMI
+      </text>
+    </svg>
+
+    <!-- Play splash sound -->
+    <audio src="intro.mp3" autoplay></audio>
+  </body>
+</html>

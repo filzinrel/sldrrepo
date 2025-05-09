@@ -44,7 +44,10 @@ Get-ChildItem -Path $SongsRoot -Directory | ForEach-Object {
 
 
         # Parse required fields
-    $title  = Get-HeaderValue 'TITLE'
+    $titleRaw = Get-HeaderValue 'TITLE'
+    $title  = $titleRaw 
+    $unsafePattern = '[^A-Za-z0-9._-]'
+    $directory = $titleRaw -replace $unsafePattern, ''
     $artist = Get-HeaderValue 'ARTIST'
 
     # DISPLAYBPM: truncate at colon if present
@@ -88,6 +91,7 @@ Get-ChildItem -Path $SongsRoot -Directory | ForEach-Object {
         sampleLength = $sampleLength
         music        = $music
         difficulties = $diffs
+        directory = $directory
     }
 }
 

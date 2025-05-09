@@ -7,7 +7,8 @@
     "sampleStart": 28.009,
     "sampleLength": 15,
     "music": "1998.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "1998"
   },
   {
     "name": "20,NOVEMBER (D.D.R. version)",
@@ -17,7 +18,8 @@
     "sampleStart": 53.499,
     "sampleLength": 15,
     "music": "20,NOVEMBER (D.D.R. version).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "20NOVEMBERD.D.R.version"
   },
   {
     "name": "321STARS",
@@ -27,7 +29,8 @@
     "sampleStart": 18.748,
     "sampleLength": 15,
     "music": "321STARS.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "321STARS"
   },
   {
     "name": "A",
@@ -37,7 +40,8 @@
     "sampleStart": 56.116,
     "sampleLength": 15,
     "music": "A.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "A"
   },
   {
     "name": "Across the nightmare",
@@ -47,7 +51,8 @@
     "sampleStart": 34.396,
     "sampleLength": 15,
     "music": "Across the nightmare.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "Acrossthenightmare"
   },
   {
     "name": "AFRONOVA",
@@ -57,7 +62,8 @@
     "sampleStart": 30,
     "sampleLength": 15,
     "music": "AFRONOVA.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "AFRONOVA"
   },
   {
     "name": "air",
@@ -67,7 +73,8 @@
     "sampleStart": 8.973,
     "sampleLength": 15,
     "music": "air.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "air"
   },
   {
     "name": "AM-3P -303 BASS MIX-",
@@ -77,7 +84,19 @@
     "sampleStart": 24.008,
     "sampleLength": 15,
     "music": "AM-3P -303 BASS MIX-.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "AM-3P-303BASSMIX-"
+  },
+  {
+    "name": "蒼い衝動 ～for EXTREME～",
+    "artist": "NAOKI feat.YUKI",
+    "bpm": 145,
+    "banner": "Aoi shoudou ~for EXTREME~.png",
+    "sampleStart": 44.284,
+    "sampleLength": 15,
+    "music": "Aoi shoudou ~for EXTREME~.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "forEXTREME"
   },
   {
     "name": "bag",
@@ -87,17 +106,8 @@
     "sampleStart": 11.075,
     "sampleLength": 15,
     "music": "bag.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
-  },
-  {
-    "name": "BE LOVIN",
-    "artist": "D-Crew",
-    "bpm": 185,
-    "banner": "BE LOVIN.png",
-    "sampleStart": 10.357,
-    "sampleLength": 15,
-    "music": "BE LOVIN.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "bag"
   },
   {
     "name": "BEATS LIKE THIS",
@@ -107,7 +117,19 @@
     "sampleStart": 45.044,
     "sampleLength": 15,
     "music": "BEATS LIKE THIS.ogg",
-    "difficulties": ["Easy", "Medium", "Hard"]
+    "difficulties": ["Easy", "Medium", "Hard"],
+    "directory": "BEATSLIKETHIS"
+  },
+  {
+    "name": "BE LOVIN",
+    "artist": "D-Crew",
+    "bpm": 185,
+    "banner": "BE LOVIN.png",
+    "sampleStart": 10.357,
+    "sampleLength": 15,
+    "music": "BE LOVIN.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "BELOVIN"
   },
   {
     "name": "BOOM BOOM DOLLAR (K.O.G G3 MIX)",
@@ -117,7 +139,8 @@
     "sampleStart": 35.3,
     "sampleLength": 15,
     "music": "BOOM BOOM DOLLAR (K.O.G G3 MIX).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "BOOMBOOMDOLLARK.O.GG3MIX"
   },
   {
     "name": "BURNIN\u0027 THE FLOOR (MOMO MIX)",
@@ -127,7 +150,8 @@
     "sampleStart": 52.229,
     "sampleLength": 15,
     "music": "BURNIN\u0027 THE FLOOR (MOMO MIX).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "BURNINTHEFLOORMOMOMIX"
   },
   {
     "name": "butterfly (UPSWING MIX)",
@@ -137,7 +161,8 @@
     "sampleStart": 7.058,
     "sampleLength": 15,
     "music": "butterfly (UPSWING MIX).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "butterflyUPSWINGMIX"
   },
   {
     "name": "CAN\u0027T TAKE MY EYES OFF YOU (70\u0027s Remix)",
@@ -147,7 +172,8 @@
     "sampleStart": 16.563,
     "sampleLength": 15,
     "music": "CAN\u0027T TAKE MY EYES OFF YOU (70\u0027s Remix).ogg",
-    "difficulties": ["Easy", "Medium", "Hard"]
+    "difficulties": ["Easy", "Medium", "Hard"],
+    "directory": "CANTTAKEMYEYESOFFYOU70sRemix"
   },
   {
     "name": "CAPTAIN JACK (GRANDALE REMIX)",
@@ -157,7 +183,8 @@
     "sampleStart": 50.822,
     "sampleLength": 15,
     "music": "CAPTAIN JACK (GRANDALE REMIX).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "CAPTAINJACKGRANDALEREMIX"
   },
   {
     "name": "CARTOON HEROES (Speedy Mix)",
@@ -167,7 +194,8 @@
     "sampleStart": 56.468,
     "sampleLength": 15,
     "music": "CARTOON HEROES (Speedy Mix).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "CARTOONHEROESSpeedyMix"
   },
   {
     "name": "Colors ～for EXTREME～",
@@ -177,7 +205,8 @@
     "sampleStart": 77.96,
     "sampleLength": 15,
     "music": "Colors ~for EXTREME~.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "ColorsforEXTREME"
   },
   {
     "name": "CRASH!",
@@ -187,7 +216,8 @@
     "sampleStart": 50.407,
     "sampleLength": 15,
     "music": "CRASH!.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "CRASH"
   },
   {
     "name": "CUTIE CHASER(MORNING MIX)",
@@ -197,7 +227,8 @@
     "sampleStart": 35.676,
     "sampleLength": 15,
     "music": "CUTIE CHASER(MORNING MIX).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "CUTIECHASERMORNINGMIX"
   },
   {
     "name": "大見解",
@@ -207,7 +238,8 @@
     "sampleStart": 61.34,
     "sampleLength": 15,
     "music": "DAIKENKAI.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": ""
   },
   {
     "name": "DAM DARIRAM",
@@ -217,7 +249,8 @@
     "sampleStart": 56.69,
     "sampleLength": 15,
     "music": "DAM DARIRAM.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "DAMDARIRAM"
   },
   {
     "name": "Dance Dance Revolution",
@@ -227,7 +260,8 @@
     "sampleStart": 28.801,
     "sampleLength": 15,
     "music": "Dance Dance Revolution.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "DanceDanceRevolution"
   },
   {
     "name": "DEAD END",
@@ -237,7 +271,8 @@
     "sampleStart": 54.317,
     "sampleLength": 15,
     "music": "DEAD END.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "DEADEND"
   },
   {
     "name": "Destiny lovers",
@@ -247,7 +282,8 @@
     "sampleStart": 51.766,
     "sampleLength": 15,
     "music": "Destiny lovers.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "Destinylovers"
   },
   {
     "name": "DO IT ALL NIGHT",
@@ -257,7 +293,8 @@
     "sampleStart": 44.062,
     "sampleLength": 15,
     "music": "DO IT ALL NIGHT.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "DOITALLNIGHT"
   },
   {
     "name": "Do It Right(Harmonized 2Step Mix)",
@@ -267,7 +304,8 @@
     "sampleStart": 44.444,
     "sampleLength": 15,
     "music": "Do It Right(Harmonized 2Step Mix).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "DoItRightHarmonized2StepMix"
   },
   {
     "name": "DROP THE BOMB(SyS.F. Mix)",
@@ -277,7 +315,8 @@
     "sampleStart": 14.401,
     "sampleLength": 15,
     "music": "DROP THE BOMB(SyS.F. Mix).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "DROPTHEBOMBSyS.F.Mix"
   },
   {
     "name": "DYNAMITE RAVE",
@@ -287,7 +326,8 @@
     "sampleStart": 40.798,
     "sampleLength": 15,
     "music": "DYNAMITE RAVE.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "DYNAMITERAVE"
   },
   {
     "name": "DYNAMITE RAVE(Down Bird SOTA Mix)",
@@ -297,7 +337,8 @@
     "sampleStart": 41.58,
     "sampleLength": 15,
     "music": "DYNAMITE RAVE(Down Bird SOTA Mix).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "DYNAMITERAVEDownBirdSOTAMix"
   },
   {
     "name": "END OF THE CENTURY",
@@ -307,7 +348,8 @@
     "sampleStart": 80,
     "sampleLength": 15,
     "music": "END OF THE CENTURY.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "ENDOFTHECENTURY"
   },
   {
     "name": "feeling of love",
@@ -317,7 +359,8 @@
     "sampleStart": 47.471,
     "sampleLength": 15,
     "music": "feeling of love.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "feelingoflove"
   },
   {
     "name": "FLASHDANCE (WHAT A FEELING)",
@@ -327,7 +370,8 @@
     "sampleStart": 18.116,
     "sampleLength": 15,
     "music": "FLASHDANCE (WHAT A FEELING).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "FLASHDANCEWHATAFEELING"
   },
   {
     "name": "FOLLOW THE SUN (90 IN THE SHADE MIX)",
@@ -337,7 +381,8 @@
     "sampleStart": 23.992,
     "sampleLength": 15,
     "music": "FOLLOW THE SUN (90 IN THE SHADE MIX).ogg",
-    "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Easy", "Medium", "Hard", "Challenge"],
+    "directory": "FOLLOWTHESUN90INTHESHADEMIX"
   },
   {
     "name": "Frozen Ray ～for EXTREME～",
@@ -347,7 +392,8 @@
     "sampleStart": 26.153,
     "sampleLength": 15,
     "music": "Frozen Ray ~for EXTREME~.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "FrozenRayforEXTREME"
   },
   {
     "name": "Gamelan de Couple",
@@ -357,7 +403,8 @@
     "sampleStart": 30.4,
     "sampleLength": 15,
     "music": "Gamelan de Couple.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "GamelandeCouple"
   },
   {
     "name": "gentle stress (AMD SEXUAL MIX)",
@@ -367,17 +414,8 @@
     "sampleStart": 61.5,
     "sampleLength": 15,
     "music": "gentle stress (AMD SEXUAL MIX).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
-  },
-  {
-    "name": "GET UP (BEFORE THE NIGHT IS OVER)",
-    "artist": "TECHNOTRONIC feat. YA KID K",
-    "bpm": 124,
-    "banner": "GET UP (BEFORE THE NIGHT IS OVER).png",
-    "sampleStart": 25.158,
-    "sampleLength": 15,
-    "music": "GET UP (BEFORE THE NIGHT IS OVER).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "gentlestressAMDSEXUALMIX"
   },
   {
     "name": "GET UP AND DANCE",
@@ -387,7 +425,19 @@
     "sampleStart": 66.276,
     "sampleLength": 15,
     "music": "GET UP AND DANCE.ogg",
-    "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Easy", "Medium", "Hard", "Challenge"],
+    "directory": "GETUPANDDANCE"
+  },
+  {
+    "name": "GET UP (BEFORE THE NIGHT IS OVER)",
+    "artist": "TECHNOTRONIC feat. YA KID K",
+    "bpm": 124,
+    "banner": "GET UP (BEFORE THE NIGHT IS OVER).png",
+    "sampleStart": 25.158,
+    "sampleLength": 15,
+    "music": "GET UP (BEFORE THE NIGHT IS OVER).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "GETUPBEFORETHENIGHTISOVER"
   },
   {
     "name": "GRADIUSIC CYBER ～AMD G5 MIX～",
@@ -397,7 +447,8 @@
     "sampleStart": 51,
     "sampleLength": 15,
     "music": "GRADIUSIC CYBER ~AMD G5 MIX~.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "GRADIUSICCYBERAMDG5MIX"
   },
   {
     "name": "GRADUATION ～それぞれの明日～",
@@ -407,7 +458,8 @@
     "sampleStart": 31.928,
     "sampleLength": 15,
     "music": "GRADUATION.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "GRADUATION"
   },
   {
     "name": "Happy Wedding",
@@ -417,7 +469,8 @@
     "sampleStart": 47.633,
     "sampleLength": 15,
     "music": "Happy Wedding.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "HappyWedding"
   },
   {
     "name": "Heaven is a \u002757 metallic gray ～gimmix～",
@@ -427,7 +480,8 @@
     "sampleStart": 13.586,
     "sampleLength": 15,
     "music": "Heaven is a \u002757 metallic gray ~gimmix~.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "Heavenisa57metallicgraygimmix"
   },
   {
     "name": "HOLD ON ME",
@@ -437,7 +491,8 @@
     "sampleStart": 63.134,
     "sampleLength": 15,
     "music": "HOLD ON ME.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "HOLDONME"
   },
   {
     "name": "HOLIDAY",
@@ -447,7 +502,8 @@
     "sampleStart": 16.407,
     "sampleLength": 15,
     "music": "HOLIDAY.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "HOLIDAY"
   },
   {
     "name": "HYPER EUROBEAT",
@@ -457,7 +513,8 @@
     "sampleStart": 38.655,
     "sampleLength": 15,
     "music": "HYPER EUROBEAT.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "HYPEREUROBEAT"
   },
   {
     "name": "I DO I DO I DO",
@@ -467,17 +524,8 @@
     "sampleStart": 43.626,
     "sampleLength": 15,
     "music": "I DO I DO I DO.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
-  },
-  {
-    "name": "I\u0027m gonna get you!",
-    "artist": "Kelly Cosmo",
-    "bpm": 160,
-    "banner": "I\u0027m gonna get you!.png",
-    "sampleStart": 37.506,
-    "sampleLength": 12,
-    "music": "I\u0027m gonna get you!.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "IDOIDOIDO"
   },
   {
     "name": "IF YOU CAN SAY GOODBYE",
@@ -487,7 +535,19 @@
     "sampleStart": 40.887,
     "sampleLength": 15,
     "music": "IF YOU CAN SAY GOODBYE.ogg",
-    "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Easy", "Medium", "Hard", "Challenge"],
+    "directory": "IFYOUCANSAYGOODBYE"
+  },
+  {
+    "name": "I\u0027m gonna get you!",
+    "artist": "Kelly Cosmo",
+    "bpm": 160,
+    "banner": "I\u0027m gonna get you!.png",
+    "sampleStart": 37.506,
+    "sampleLength": 12,
+    "music": "I\u0027m gonna get you!.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "Imgonnagetyou"
   },
   {
     "name": "IN THE NAVY \u002799 (XXL Disaster Remix)",
@@ -497,7 +557,8 @@
     "sampleStart": 19.111,
     "sampleLength": 15,
     "music": "IN THE NAVY \u002799 (XXL Disaster Remix).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "INTHENAVY99XXLDisasterRemix"
   },
   {
     "name": "IRRESISTIBLEMENT",
@@ -507,7 +568,8 @@
     "sampleStart": 11.56,
     "sampleLength": 15,
     "music": "IRRESISTIBLEMENT.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "IRRESISTIBLEMENT"
   },
   {
     "name": "IT ONLY TAKES A MINUTE (Extended Remix)",
@@ -517,7 +579,8 @@
     "sampleStart": 9.572,
     "sampleLength": 15,
     "music": "IT ONLY TAKES A MINUTE (Extended Remix).ogg",
-    "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Easy", "Medium", "Hard", "Challenge"],
+    "directory": "ITONLYTAKESAMINUTEExtendedRemix"
   },
   {
     "name": "Jam Jam Reggae",
@@ -527,7 +590,8 @@
     "sampleStart": 50.662,
     "sampleLength": 15,
     "music": "Jam Jam Reggae.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "JamJamReggae"
   },
   {
     "name": "jane jana",
@@ -537,7 +601,8 @@
     "sampleStart": 63.363,
     "sampleLength": 15,
     "music": "jane jana.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "janejana"
   },
   {
     "name": "JET WORLD",
@@ -547,7 +612,8 @@
     "sampleStart": 12.196,
     "sampleLength": 15,
     "music": "JET WORLD.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "JETWORLD"
   },
   {
     "name": "KEEP ON MOVIN\u0027",
@@ -557,7 +623,8 @@
     "sampleStart": 9.099,
     "sampleLength": 15,
     "music": "KEEP ON MOVIN\u0027.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "KEEPONMOVIN"
   },
   {
     "name": "Kind Lady",
@@ -567,7 +634,8 @@
     "sampleStart": 44.457,
     "sampleLength": 15,
     "music": "Kind Lady.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "KindLady"
   },
   {
     "name": "KISS KISS KISS",
@@ -577,7 +645,8 @@
     "sampleStart": 38.739,
     "sampleLength": 15,
     "music": "KISS KISS KISS.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "KISSKISSKISS"
   },
   {
     "name": "Kiss me all night long",
@@ -587,17 +656,8 @@
     "sampleStart": 63.804,
     "sampleLength": 15,
     "music": "Kiss me all night long.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
-  },
-  {
-    "name": "L\u0027amour et la liberté(DDR Ver.)",
-    "artist": "NAOKI underground",
-    "bpm": 145,
-    "banner": "L\u0027amour et la liberte(DDR Ver.).png",
-    "sampleStart": 68.389,
-    "sampleLength": 15,
-    "music": "L\u0027amour et la liberte(DDR Ver.).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "Kissmeallnightlong"
   },
   {
     "name": "LA BAMBA",
@@ -607,7 +667,8 @@
     "sampleStart": 9.555,
     "sampleLength": 15,
     "music": "LA BAMBA.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "LABAMBA"
   },
   {
     "name": "LA COPA DE LA VIDA",
@@ -617,7 +678,19 @@
     "sampleStart": 55.529,
     "sampleLength": 15,
     "music": "LA COPA DE LA VIDA.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "LACOPADELAVIDA"
+  },
+  {
+    "name": "L\u0027amour et la liberté(DDR Ver.)",
+    "artist": "NAOKI underground",
+    "bpm": 145,
+    "banner": "L\u0027amour et la liberte(DDR Ver.).png",
+    "sampleStart": 68.389,
+    "sampleLength": 15,
+    "music": "L\u0027amour et la liberte(DDR Ver.).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "LamouretlalibertDDRVer."
   },
   {
     "name": "La Señorita",
@@ -627,7 +700,8 @@
     "sampleStart": 35.108,
     "sampleLength": 15,
     "music": "La Senorita.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "LaSeorita"
   },
   {
     "name": "Last Message",
@@ -637,7 +711,8 @@
     "sampleStart": 40.221,
     "sampleLength": 15,
     "music": "Last Message.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "LastMessage"
   },
   {
     "name": "LET THEM MOVE",
@@ -647,7 +722,8 @@
     "sampleStart": 43.788,
     "sampleLength": 15,
     "music": "LET THEM MOVE.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "LETTHEMMOVE"
   },
   {
     "name": "Look To The Sky(True Color Mix)",
@@ -657,7 +733,8 @@
     "sampleStart": 22.287,
     "sampleLength": 15,
     "music": "Look To The Sky(True Color Mix).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "LookToTheSkyTrueColorMix"
   },
   {
     "name": "LOVE♥SHINE",
@@ -667,7 +744,8 @@
     "sampleStart": 44.751,
     "sampleLength": 15,
     "music": "LOVE LOVE SHINE.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "LOVESHINE"
   },
   {
     "name": "♥LOVE²シュガ→♥",
@@ -677,7 +755,8 @@
     "sampleStart": 44.879,
     "sampleLength": 15,
     "music": "LOVE LOVE SUGAR.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "LOVE"
   },
   {
     "name": "LUV TO ME (AMD MIX)",
@@ -687,7 +766,8 @@
     "sampleStart": 43.453,
     "sampleLength": 15,
     "music": "LUV TO ME (AMD MIX).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "LUVTOMEAMDMIX"
   },
   {
     "name": "魔法の扉(スペース☆マコのテーマ)",
@@ -697,7 +777,8 @@
     "sampleStart": 13.035,
     "sampleLength": 15,
     "music": "Mahou no tobira(SPACE MACO no theme).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": ""
   },
   {
     "name": "MEMORIES",
@@ -707,7 +788,8 @@
     "sampleStart": 41.407,
     "sampleLength": 15,
     "music": "MEMORIES.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "MEMORIES"
   },
   {
     "name": "三毛猫ロック",
@@ -717,7 +799,8 @@
     "sampleStart": 6.839,
     "sampleLength": 15,
     "music": "Mikeneko rock.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": ""
   },
   {
     "name": "Miracle Moon ～L.E.D.LIGHT STYLE MIX～",
@@ -727,7 +810,8 @@
     "sampleStart": 34.783,
     "sampleLength": 15,
     "music": "Miracle Moon ~L.E.D.LIGHT STYLE MIX~.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "MiracleMoonL.E.D.LIGHTSTYLEMIX"
   },
   {
     "name": "MOBO★MOGA",
@@ -737,7 +821,8 @@
     "sampleStart": 28.964,
     "sampleLength": 15,
     "music": "MOBO MOGA.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "MOBOMOGA"
   },
   {
     "name": "MR. WONDERFUL",
@@ -747,7 +832,8 @@
     "sampleStart": 59.13,
     "sampleLength": 15,
     "music": "MR. WONDERFUL.ogg",
-    "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Easy", "Medium", "Hard", "Challenge"],
+    "directory": "MR.WONDERFUL"
   },
   {
     "name": "OH NICK PLEASE NOT SO QUICK",
@@ -757,7 +843,8 @@
     "sampleStart": 54.101,
     "sampleLength": 15,
     "music": "OH NICK PLEASE NOT SO QUICK.ogg",
-    "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Easy", "Medium", "Hard", "Challenge"],
+    "directory": "OHNICKPLEASENOTSOQUICK"
   },
   {
     "name": "OPERATOR",
@@ -767,7 +854,8 @@
     "sampleStart": 58.678,
     "sampleLength": 15,
     "music": "OPERATOR.ogg",
-    "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Easy", "Medium", "Hard", "Challenge"],
+    "directory": "OPERATOR"
   },
   {
     "name": "PARANOiA Rebirth",
@@ -777,7 +865,8 @@
     "sampleStart": 1.269,
     "sampleLength": 15,
     "music": "PARANOiA Rebirth.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "PARANOiARebirth"
   },
   {
     "name": "PARANOIA survivor",
@@ -787,7 +876,8 @@
     "sampleStart": 75.553,
     "sampleLength": 15,
     "music": "PARANOIA survivor.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "PARANOIAsurvivor"
   },
   {
     "name": "PARANOIA survivor MAX",
@@ -797,7 +887,8 @@
     "sampleStart": 70.344,
     "sampleLength": 15,
     "music": "PARANOIA survivor MAX.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "PARANOIAsurvivorMAX"
   },
   {
     "name": "Pink Rose",
@@ -807,7 +898,8 @@
     "sampleStart": 58.356,
     "sampleLength": 15,
     "music": "Pink Rose.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "PinkRose"
   },
   {
     "name": "ROCK BEAT",
@@ -817,7 +909,8 @@
     "sampleStart": 30.4,
     "sampleLength": 15,
     "music": "ROCK BEAT.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "ROCKBEAT"
   },
   {
     "name": "桜",
@@ -827,7 +920,8 @@
     "sampleStart": 20.002,
     "sampleLength": 14,
     "music": "SAKURA.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": ""
   },
   {
     "name": "SENORITA(Speedy Mix)",
@@ -837,7 +931,8 @@
     "sampleStart": 50.307,
     "sampleLength": 15,
     "music": "SENORITA(Speedy Mix).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "SENORITASpeedyMix"
   },
   {
     "name": "Silent Hill",
@@ -847,7 +942,8 @@
     "sampleStart": 33.09,
     "sampleLength": 15,
     "music": "Silent Hill.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "SilentHill"
   },
   {
     "name": "SO IN LOVE",
@@ -857,7 +953,8 @@
     "sampleStart": 55.717,
     "sampleLength": 15,
     "music": "SO IN LOVE.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "SOINLOVE"
   },
   {
     "name": "SO MANY MEN",
@@ -867,7 +964,8 @@
     "sampleStart": 48.356,
     "sampleLength": 15,
     "music": "SO MANY MEN.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "SOMANYMEN"
   },
   {
     "name": "SPEED OVER BEETHOVEN",
@@ -877,7 +975,8 @@
     "sampleStart": 27.874,
     "sampleLength": 15,
     "music": "SPEED OVER BEETHOVEN.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "SPEEDOVERBEETHOVEN"
   },
   {
     "name": "STAY (Organic house Version)",
@@ -887,7 +986,8 @@
     "sampleStart": 49.863,
     "sampleLength": 15,
     "music": "STAY (Organic house Version).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "STAYOrganichouseVersion"
   },
   {
     "name": "stoic (EXTREME version)",
@@ -897,7 +997,8 @@
     "sampleStart": 58.839,
     "sampleLength": 15,
     "music": "stoic (EXTREME version).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "stoicEXTREMEversion"
   },
   {
     "name": "sync (EXTREME version)",
@@ -907,7 +1008,8 @@
     "sampleStart": 71.87,
     "sampleLength": 15,
     "music": "sync (EXTREME version).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "syncEXTREMEversion"
   },
   {
     "name": "TEARS",
@@ -917,7 +1019,8 @@
     "sampleStart": 40.28,
     "sampleLength": 15,
     "music": "TEARS.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "TEARS"
   },
   {
     "name": "The Least 100sec",
@@ -927,7 +1030,8 @@
     "sampleStart": 0.913,
     "sampleLength": 15,
     "music": "The Least 100sec.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "TheLeast100sec"
   },
   {
     "name": "The legend of MAX",
@@ -937,7 +1041,8 @@
     "sampleStart": 12.255,
     "sampleLength": 15,
     "music": "The legend of MAX.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "ThelegendofMAX"
   },
   {
     "name": "THE RACE",
@@ -947,7 +1052,8 @@
     "sampleStart": 49.921,
     "sampleLength": 15,
     "music": "THE RACE.ogg",
-    "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Easy", "Medium", "Hard", "Challenge"],
+    "directory": "THERACE"
   },
   {
     "name": "TRIP MACHINE survivor",
@@ -957,7 +1063,8 @@
     "sampleStart": 16.944,
     "sampleLength": 15,
     "music": "TRIP MACHINE survivor.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "TRIPMACHINEsurvivor"
   },
   {
     "name": "TURN ME ON (HEAVENLY MIX)",
@@ -967,7 +1074,8 @@
     "sampleStart": 50.114,
     "sampleLength": 15,
     "music": "TURN ME ON (HEAVENLY MIX).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "TURNMEONHEAVENLYMIX"
   },
   {
     "name": "Twin Bee -Generation X-",
@@ -977,7 +1085,8 @@
     "sampleStart": 21.313,
     "sampleLength": 15,
     "music": "Twin Bee -Generation X-.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "TwinBee-GenerationX-"
   },
   {
     "name": "UPSIDE DOWN",
@@ -987,17 +1096,8 @@
     "sampleStart": 44.264,
     "sampleLength": 15,
     "music": "UPSIDE DOWN.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
-  },
-  {
-    "name": "V ～for EXTREME～",
-    "artist": "TAKA",
-    "bpm": 150,
-    "banner": "V ~for EXTREME~.png",
-    "sampleStart": 83.2,
-    "sampleLength": 15,
-    "music": "V ~for EXTREME~.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "UPSIDEDOWN"
   },
   {
     "name": "VANITY ANGEL",
@@ -1007,7 +1107,19 @@
     "sampleStart": 36.034,
     "sampleLength": 15,
     "music": "VANITY ANGEL.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "VANITYANGEL"
+  },
+  {
+    "name": "V ～for EXTREME～",
+    "artist": "TAKA",
+    "bpm": 150,
+    "banner": "V ~for EXTREME~.png",
+    "sampleStart": 83.2,
+    "sampleLength": 15,
+    "music": "V ~for EXTREME~.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "VforEXTREME"
   },
   {
     "name": "VOL.4",
@@ -1017,7 +1129,8 @@
     "sampleStart": 53.841,
     "sampleLength": 15,
     "music": "VOL.4.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "VOL.4"
   },
   {
     "name": "WE ARE THE CHAMPIONS (Factory Team Remix)",
@@ -1027,7 +1140,8 @@
     "sampleStart": 45.883,
     "sampleLength": 15,
     "music": "WE ARE THE CHAMPIONS (Factory Team Remix).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "WEARETHECHAMPIONSFactoryTeamRemix"
   },
   {
     "name": "WE WILL ROCK YOU",
@@ -1037,7 +1151,8 @@
     "sampleStart": 50.639,
     "sampleLength": 15,
     "music": "WE WILL ROCK YOU.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "WEWILLROCKYOU"
   },
   {
     "name": "White Lovers",
@@ -1047,7 +1162,8 @@
     "sampleStart": 66.567,
     "sampleLength": 15,
     "music": "White Lovers.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "WhiteLovers"
   },
   {
     "name": "WONDERLAND (UKS MIX)",
@@ -1057,7 +1173,8 @@
     "sampleStart": 56.256,
     "sampleLength": 15,
     "music": "WONDERLAND (UKS MIX).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+    "directory": "WONDERLANDUKSMIX"
   },
   {
     "name": "XANADU",
@@ -1067,7 +1184,8 @@
     "sampleStart": 48.011,
     "sampleLength": 15,
     "music": "XANADU.ogg",
-    "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+    "difficulties": ["Easy", "Medium", "Hard", "Challenge"],
+    "directory": "XANADU"
   },
   {
     "name": "xenon",
@@ -1077,6 +1195,7 @@
     "sampleStart": 19.749,
     "sampleLength": 15,
     "music": "xenon.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"],
+    "directory": "xenon"
   }
 ]

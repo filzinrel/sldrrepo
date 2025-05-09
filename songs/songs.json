@@ -80,6 +80,16 @@
     "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
   },
   {
+    "name": "蒼い衝動 ～for EXTREME～",
+    "artist": "NAOKI feat.YUKI",
+    "bpm": 145,
+    "banner": "Aoi shoudou ~for EXTREME~.png",
+    "sampleStart": 44.284,
+    "sampleLength": 15,
+    "music": "Aoi shoudou ~for EXTREME~.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
     "name": "bag",
     "artist": "RevenG",
     "bpm": 65,
@@ -87,16 +97,6 @@
     "sampleStart": 11.075,
     "sampleLength": 15,
     "music": "bag.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
-  },
-  {
-    "name": "BE LOVIN",
-    "artist": "D-Crew",
-    "bpm": 185,
-    "banner": "BE LOVIN.png",
-    "sampleStart": 10.357,
-    "sampleLength": 15,
-    "music": "BE LOVIN.ogg",
     "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
   },
   {
@@ -108,6 +108,16 @@
     "sampleLength": 15,
     "music": "BEATS LIKE THIS.ogg",
     "difficulties": ["Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "BE LOVIN",
+    "artist": "D-Crew",
+    "bpm": 185,
+    "banner": "BE LOVIN.png",
+    "sampleStart": 10.357,
+    "sampleLength": 15,
+    "music": "BE LOVIN.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
   },
   {
     "name": "BOOM BOOM DOLLAR (K.O.G G3 MIX)",
@@ -370,16 +380,6 @@
     "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
   },
   {
-    "name": "GET UP (BEFORE THE NIGHT IS OVER)",
-    "artist": "TECHNOTRONIC feat. YA KID K",
-    "bpm": 124,
-    "banner": "GET UP (BEFORE THE NIGHT IS OVER).png",
-    "sampleStart": 25.158,
-    "sampleLength": 15,
-    "music": "GET UP (BEFORE THE NIGHT IS OVER).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
-  },
-  {
     "name": "GET UP AND DANCE",
     "artist": "FREEDOM",
     "bpm": 109,
@@ -388,6 +388,16 @@
     "sampleLength": 15,
     "music": "GET UP AND DANCE.ogg",
     "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "GET UP (BEFORE THE NIGHT IS OVER)",
+    "artist": "TECHNOTRONIC feat. YA KID K",
+    "bpm": 124,
+    "banner": "GET UP (BEFORE THE NIGHT IS OVER).png",
+    "sampleStart": 25.158,
+    "sampleLength": 15,
+    "music": "GET UP (BEFORE THE NIGHT IS OVER).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
   },
   {
     "name": "GRADIUSIC CYBER ～AMD G5 MIX～",
@@ -470,16 +480,6 @@
     "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
   },
   {
-    "name": "I\u0027m gonna get you!",
-    "artist": "Kelly Cosmo",
-    "bpm": 160,
-    "banner": "I\u0027m gonna get you!.png",
-    "sampleStart": 37.506,
-    "sampleLength": 12,
-    "music": "I\u0027m gonna get you!.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
-  },
-  {
     "name": "IF YOU CAN SAY GOODBYE",
     "artist": "KATE PROJECT",
     "bpm": 0,
@@ -488,6 +488,16 @@
     "sampleLength": 15,
     "music": "IF YOU CAN SAY GOODBYE.ogg",
     "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "I\u0027m gonna get you!",
+    "artist": "Kelly Cosmo",
+    "bpm": 160,
+    "banner": "I\u0027m gonna get you!.png",
+    "sampleStart": 37.506,
+    "sampleLength": 12,
+    "music": "I\u0027m gonna get you!.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
   },
   {
     "name": "IN THE NAVY \u002799 (XXL Disaster Remix)",
@@ -590,16 +600,6 @@
     "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
   },
   {
-    "name": "L\u0027amour et la liberté(DDR Ver.)",
-    "artist": "NAOKI underground",
-    "bpm": 145,
-    "banner": "L\u0027amour et la liberte(DDR Ver.).png",
-    "sampleStart": 68.389,
-    "sampleLength": 15,
-    "music": "L\u0027amour et la liberte(DDR Ver.).ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
-  },
-  {
     "name": "LA BAMBA",
     "artist": "メキシコ民謡",
     "bpm": 179,
@@ -617,6 +617,16 @@
     "sampleStart": 55.529,
     "sampleLength": 15,
     "music": "LA COPA DE LA VIDA.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "L\u0027amour et la liberté(DDR Ver.)",
+    "artist": "NAOKI underground",
+    "bpm": 145,
+    "banner": "L\u0027amour et la liberte(DDR Ver.).png",
+    "sampleStart": 68.389,
+    "sampleLength": 15,
+    "music": "L\u0027amour et la liberte(DDR Ver.).ogg",
     "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
   },
   {
@@ -990,16 +1000,6 @@
     "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
   },
   {
-    "name": "V ～for EXTREME～",
-    "artist": "TAKA",
-    "bpm": 150,
-    "banner": "V ~for EXTREME~.png",
-    "sampleStart": 83.2,
-    "sampleLength": 15,
-    "music": "V ~for EXTREME~.ogg",
-    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
-  },
-  {
     "name": "VANITY ANGEL",
     "artist": "FIXX",
     "bpm": 140,
@@ -1008,6 +1008,16 @@
     "sampleLength": 15,
     "music": "VANITY ANGEL.ogg",
     "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "V ～for EXTREME～",
+    "artist": "TAKA",
+    "bpm": 150,
+    "banner": "V ~for EXTREME~.png",
+    "sampleStart": 83.2,
+    "sampleLength": 15,
+    "music": "V ~for EXTREME~.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
   },
   {
     "name": "VOL.4",

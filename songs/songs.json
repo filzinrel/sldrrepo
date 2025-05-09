@@ -1,1675 +1,1082 @@
 ﻿[
-    {
-        "name":  "1998",
-        "artist":  "NAOKI",
-        "bpm":  150,
-        "banner":  "1998.png",
-        "sampleStart":  28.009,
-        "sampleLength":  15,
-        "music":  "1998.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "20,NOVEMBER (D.D.R. version)",
-        "artist":  "N.M.R. feat. DJ.nagureo",
-        "bpm":  130,
-        "banner":  "20,NOVEMBER (D.D.R. version).png",
-        "sampleStart":  53.499,
-        "sampleLength":  15,
-        "music":  "20,NOVEMBER (D.D.R. version).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "321STARS",
-        "artist":  "DJ SIMON",
-        "bpm":  192,
-        "banner":  "321STARS.png",
-        "sampleStart":  18.748,
-        "sampleLength":  15,
-        "music":  "321STARS.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "A",
-        "artist":  "D.J. Amuro",
-        "bpm":  93,
-        "banner":  "A.png",
-        "sampleStart":  56.116,
-        "sampleLength":  15,
-        "music":  "A.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "Across the nightmare",
-        "artist":  "Jimmy Weckl",
-        "bpm":  300,
-        "banner":  "Across the nightmare.png",
-        "sampleStart":  34.396,
-        "sampleLength":  15,
-        "music":  "Across the nightmare.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "AFRONOVA",
-        "artist":  "RE-VENGE",
-        "bpm":  0,
-        "banner":  "AFRONOVA.png",
-        "sampleStart":  30,
-        "sampleLength":  15,
-        "music":  "AFRONOVA.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "air",
-        "artist":  "DJ SIMON",
-        "bpm":  130,
-        "banner":  "air.png",
-        "sampleStart":  8.973,
-        "sampleLength":  15,
-        "music":  "air.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "AM-3P -303 BASS MIX-",
-        "artist":  "KTz (remixed by U1)",
-        "bpm":  130,
-        "banner":  "AM-3P -303 BASS MIX-.png",
-        "sampleStart":  24.008,
-        "sampleLength":  15,
-        "music":  "AM-3P -303 BASS MIX-.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "蒼い衝動 ～for EXTREME～",
-        "artist":  "NAOKI feat.YUKI",
-        "bpm":  145,
-        "banner":  "Aoi shoudou ~for EXTREME~.png",
-        "sampleStart":  44.284,
-        "sampleLength":  15,
-        "music":  "Aoi shoudou ~for EXTREME~.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "bag",
-        "artist":  "RevenG",
-        "bpm":  65,
-        "banner":  "bag.png",
-        "sampleStart":  11.075,
-        "sampleLength":  15,
-        "music":  "bag.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "BE LOVIN",
-        "artist":  "D-Crew",
-        "bpm":  185,
-        "banner":  "BE LOVIN.png",
-        "sampleStart":  10.357,
-        "sampleLength":  15,
-        "music":  "BE LOVIN.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "BEATS LIKE THIS",
-        "artist":  "UNKNOWN PROJECT",
-        "bpm":  176,
-        "banner":  "BEATS LIKE THIS.png",
-        "sampleStart":  45.044,
-        "sampleLength":  15,
-        "music":  "BEATS LIKE THIS.ogg",
-        "difficulties":  [
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "BOOM BOOM DOLLAR (K.O.G G3 MIX)",
-        "artist":  "King Kong \u0026 D.Jungle Girls",
-        "bpm":  170,
-        "banner":  "BOOM BOOM DOLLAR (K.O.G G3 MIX).png",
-        "sampleStart":  35.3,
-        "sampleLength":  15,
-        "music":  "BOOM BOOM DOLLAR (K.O.G G3 MIX).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "BURNIN\u0027 THE FLOOR (MOMO MIX)",
-        "artist":  "NAOKI",
-        "bpm":  170,
-        "banner":  "BURNIN\u0027 THE FLOOR (MOMO MIX).png",
-        "sampleStart":  52.229,
-        "sampleLength":  15,
-        "music":  "BURNIN\u0027 THE FLOOR (MOMO MIX).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "butterfly (UPSWING MIX)",
-        "artist":  "SMILE.dk",
-        "bpm":  170,
-        "banner":  "butterfly (UPSWING MIX).png",
-        "sampleStart":  7.058,
-        "sampleLength":  15,
-        "music":  "butterfly (UPSWING MIX).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "CAN\u0027T TAKE MY EYES OFF YOU (70\u0027s Remix)",
-        "artist":  "BEAT BOX",
-        "bpm":  134,
-        "banner":  "CAN\u0027T TAKE MY EYES OFF YOU (70\u0027s Remix).png",
-        "sampleStart":  16.563,
-        "sampleLength":  15,
-        "music":  "CAN\u0027T TAKE MY EYES OFF YOU (70\u0027s Remix).ogg",
-        "difficulties":  [
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "CAPTAIN JACK (GRANDALE REMIX)",
-        "artist":  "CAPTAIN JACK",
-        "bpm":  170,
-        "banner":  "CAPTAIN JACK (GRANDALE REMIX).png",
-        "sampleStart":  50.822,
-        "sampleLength":  15,
-        "music":  "CAPTAIN JACK (GRANDALE REMIX).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "CARTOON HEROES (Speedy Mix)",
-        "artist":  "BARBIE YOUNG",
-        "bpm":  170,
-        "banner":  "CARTOON HEROES (Speedy Mix).png",
-        "sampleStart":  56.468,
-        "sampleLength":  15,
-        "music":  "CARTOON HEROES (Speedy Mix).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "Colors ～for EXTREME～",
-        "artist":  "dj TAKA",
-        "bpm":  150,
-        "banner":  "Colors ~for EXTREME~.png",
-        "sampleStart":  77.96,
-        "sampleLength":  15,
-        "music":  "Colors ~for EXTREME~.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "CRASH!",
-        "artist":  "mr.BRIAN \u0026 THE FINAL BAND",
-        "bpm":  200,
-        "banner":  "CRASH!.png",
-        "sampleStart":  50.407,
-        "sampleLength":  15,
-        "music":  "CRASH!.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "CUTIE CHASER(MORNING MIX)",
-        "artist":  "CLUB SPICE",
-        "bpm":  126,
-        "banner":  "CUTIE CHASER(MORNING MIX).png",
-        "sampleStart":  35.676,
-        "sampleLength":  15,
-        "music":  "CUTIE CHASER(MORNING MIX).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "大見解",
-        "artist":  "Des-ROW feat. TSUBOI for ALPHA",
-        "bpm":  143,
-        "banner":  "DAIKENKAI.png",
-        "sampleStart":  61.34,
-        "sampleLength":  15,
-        "music":  "DAIKENKAI.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "DAM DARIRAM",
-        "artist":  "JOGA",
-        "bpm":  142,
-        "banner":  "DAM DARIRAM.png",
-        "sampleStart":  56.69,
-        "sampleLength":  15,
-        "music":  "DAM DARIRAM.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "Dance Dance Revolution",
-        "artist":  "DDR ALL STARS",
-        "bpm":  150,
-        "banner":  "Dance Dance Revolution.png",
-        "sampleStart":  28.801,
-        "sampleLength":  15,
-        "music":  "Dance Dance Revolution.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "DEAD END",
-        "artist":  "N \u0026 S",
-        "bpm":  190,
-        "banner":  "DEAD END.png",
-        "sampleStart":  54.317,
-        "sampleLength":  15,
-        "music":  "DEAD END.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "Destiny lovers",
-        "artist":  "くにたけみゆき",
-        "bpm":  170,
-        "banner":  "Destiny lovers.png",
-        "sampleStart":  51.766,
-        "sampleLength":  15,
-        "music":  "Destiny lovers.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "DO IT ALL NIGHT",
-        "artist":  "E-ROTIC",
-        "bpm":  143,
-        "banner":  "DO IT ALL NIGHT.png",
-        "sampleStart":  44.062,
-        "sampleLength":  15,
-        "music":  "DO IT ALL NIGHT.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "Do It Right(Harmonized 2Step Mix)",
-        "artist":  "SOTA feat.Ebony Fay",
-        "bpm":  0,
-        "banner":  "Do It Right(Harmonized 2Step Mix).png",
-        "sampleStart":  44.444,
-        "sampleLength":  15,
-        "music":  "Do It Right(Harmonized 2Step Mix).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "DROP THE BOMB(SyS.F. Mix)",
-        "artist":  "Scotty D.",
-        "bpm":  150,
-        "banner":  "DROP THE BOMB(SyS.F. Mix).png",
-        "sampleStart":  14.401,
-        "sampleLength":  15,
-        "music":  "DROP THE BOMB(SyS.F. Mix).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "DYNAMITE RAVE",
-        "artist":  "NAOKI",
-        "bpm":  150,
-        "banner":  "DYNAMITE RAVE.png",
-        "sampleStart":  40.798,
-        "sampleLength":  15,
-        "music":  "DYNAMITE RAVE.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "DYNAMITE RAVE(Down Bird SOTA Mix)",
-        "artist":  "NAOKI",
-        "bpm":  150,
-        "banner":  "DYNAMITE RAVE(Down Bird SOTA Mix).png",
-        "sampleStart":  41.58,
-        "sampleLength":  15,
-        "music":  "DYNAMITE RAVE(Down Bird SOTA Mix).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "END OF THE CENTURY",
-        "artist":  "NO.9",
-        "bpm":  0,
-        "banner":  "END OF THE CENTURY.png",
-        "sampleStart":  80,
-        "sampleLength":  15,
-        "music":  "END OF THE CENTURY.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "feeling of love",
-        "artist":  "youhei shimizu",
-        "bpm":  136,
-        "banner":  "feeling of love.png",
-        "sampleStart":  47.471,
-        "sampleLength":  15,
-        "music":  "feeling of love.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "FLASHDANCE (WHAT A FEELING)",
-        "artist":  "MAGIKA",
-        "bpm":  167,
-        "banner":  "FLASHDANCE (WHAT A FEELING).png",
-        "sampleStart":  18.116,
-        "sampleLength":  15,
-        "music":  "FLASHDANCE (WHAT A FEELING).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "FOLLOW THE SUN (90 IN THE SHADE MIX)",
-        "artist":  "TRIPLE J",
-        "bpm":  170,
-        "banner":  "FOLLOW THE SUN (90 IN THE SHADE MIX).png",
-        "sampleStart":  23.992,
-        "sampleLength":  15,
-        "music":  "FOLLOW THE SUN (90 IN THE SHADE MIX).ogg",
-        "difficulties":  [
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "Frozen Ray ～for EXTREME～",
-        "artist":  "dj TAKA",
-        "bpm":  156,
-        "banner":  "Frozen Ray ~for EXTREME~.png",
-        "sampleStart":  26.153,
-        "sampleLength":  15,
-        "music":  "Frozen Ray ~for EXTREME~.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "Gamelan de Couple",
-        "artist":  "TOMOSUKE",
-        "bpm":  150,
-        "banner":  "Gamelan de Couple.png",
-        "sampleStart":  30.4,
-        "sampleLength":  15,
-        "music":  "Gamelan de Couple.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "gentle stress (AMD SEXUAL MIX)",
-        "artist":  "MR.DOG feat. DJ SWAN",
-        "bpm":  160,
-        "banner":  "gentle stress (AMD SEXUAL MIX).png",
-        "sampleStart":  61.5,
-        "sampleLength":  15,
-        "music":  "gentle stress (AMD SEXUAL MIX).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "GET UP (BEFORE THE NIGHT IS OVER)",
-        "artist":  "TECHNOTRONIC feat. YA KID K",
-        "bpm":  124,
-        "banner":  "GET UP (BEFORE THE NIGHT IS OVER).png",
-        "sampleStart":  25.158,
-        "sampleLength":  15,
-        "music":  "GET UP (BEFORE THE NIGHT IS OVER).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "GET UP AND DANCE",
-        "artist":  "FREEDOM",
-        "bpm":  109,
-        "banner":  "GET UP AND DANCE.png",
-        "sampleStart":  66.276,
-        "sampleLength":  15,
-        "music":  "GET UP AND DANCE.ogg",
-        "difficulties":  [
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "GRADIUSIC CYBER ～AMD G5 MIX～",
-        "artist":  "BIG-O feat. TAKA",
-        "bpm":  160,
-        "banner":  "GRADIUSIC CYBER ~AMD G5 MIX~.png",
-        "sampleStart":  51,
-        "sampleLength":  15,
-        "music":  "GRADIUSIC CYBER ~AMD G5 MIX~.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "GRADUATION ～それぞれの明日～",
-        "artist":  "BeForU",
-        "bpm":  125,
-        "banner":  "GRADUATION.png",
-        "sampleStart":  31.928,
-        "sampleLength":  15,
-        "music":  "GRADUATION.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "Happy Wedding",
-        "artist":  "ASKA",
-        "bpm":  126,
-        "banner":  "Happy Wedding.png",
-        "sampleStart":  47.633,
-        "sampleLength":  15,
-        "music":  "Happy Wedding.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "Heaven is a \u002757 metallic gray ～gimmix～",
-        "artist":  "Hiro feat.Sweet little 30\u0027s",
-        "bpm":  190,
-        "banner":  "Heaven is a \u002757 metallic gray ~gimmix~.png",
-        "sampleStart":  13.586,
-        "sampleLength":  15,
-        "music":  "Heaven is a \u002757 metallic gray ~gimmix~.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "HOLD ON ME",
-        "artist":  "tiger yamato",
-        "bpm":  0,
-        "banner":  "HOLD ON ME.png",
-        "sampleStart":  63.134,
-        "sampleLength":  15,
-        "music":  "HOLD ON ME.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "HOLIDAY",
-        "artist":  "WHO\u0027S THAT GIRL!",
-        "bpm":  128,
-        "banner":  "HOLIDAY.png",
-        "sampleStart":  16.407,
-        "sampleLength":  15,
-        "music":  "HOLIDAY.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "HYPER EUROBEAT",
-        "artist":  "NAOKI feat. DDR ALL STARS",
-        "bpm":  0,
-        "banner":  "HYPER EUROBEAT.png",
-        "sampleStart":  38.655,
-        "sampleLength":  15,
-        "music":  "HYPER EUROBEAT.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "I DO I DO I DO",
-        "artist":  "CREAMY",
-        "bpm":  134,
-        "banner":  "I DO I DO I DO.png",
-        "sampleStart":  43.626,
-        "sampleLength":  15,
-        "music":  "I DO I DO I DO.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "I\u0027m gonna get you!",
-        "artist":  "Kelly Cosmo",
-        "bpm":  160,
-        "banner":  "I\u0027m gonna get you!.png",
-        "sampleStart":  37.506,
-        "sampleLength":  12,
-        "music":  "I\u0027m gonna get you!.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "IF YOU CAN SAY GOODBYE",
-        "artist":  "KATE PROJECT",
-        "bpm":  0,
-        "banner":  "IF YOU CAN SAY GOODBYE.png",
-        "sampleStart":  40.887,
-        "sampleLength":  15,
-        "music":  "IF YOU CAN SAY GOODBYE.ogg",
-        "difficulties":  [
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "IN THE NAVY \u002799 (XXL Disaster Remix)",
-        "artist":  "CAPTAIN JACK",
-        "bpm":  135,
-        "banner":  "IN THE NAVY \u002799 (XXL Disaster Remix).png",
-        "sampleStart":  19.111,
-        "sampleLength":  15,
-        "music":  "IN THE NAVY \u002799 (XXL Disaster Remix).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "IRRESISTIBLEMENT",
-        "artist":  "WILDSIDE",
-        "bpm":  166,
-        "banner":  "IRRESISTIBLEMENT.png",
-        "sampleStart":  11.56,
-        "sampleLength":  15,
-        "music":  "IRRESISTIBLEMENT.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "IT ONLY TAKES A MINUTE (Extended Remix)",
-        "artist":  "TAVARES",
-        "bpm":  122,
-        "banner":  "IT ONLY TAKES A MINUTE (Extended Remix).png",
-        "sampleStart":  9.572,
-        "sampleLength":  15,
-        "music":  "IT ONLY TAKES A MINUTE (Extended Remix).ogg",
-        "difficulties":  [
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "Jam Jam Reggae",
-        "artist":  "RICE.C feat. jam master \u002773",
-        "bpm":  90,
-        "banner":  "Jam Jam Reggae.png",
-        "sampleStart":  50.662,
-        "sampleLength":  15,
-        "music":  "Jam Jam Reggae.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "jane jana",
-        "artist":  "T.E.M.P.O. feat.Mohammed \u0026 Emi",
-        "bpm":  125,
-        "banner":  "jane jana.png",
-        "sampleStart":  63.363,
-        "sampleLength":  15,
-        "music":  "jane jana.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "JET WORLD",
-        "artist":  "Mutsuhiko Izumi",
-        "bpm":  138,
-        "banner":  "JET WORLD.png",
-        "sampleStart":  12.196,
-        "sampleLength":  15,
-        "music":  "JET WORLD.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "KEEP ON MOVIN\u0027",
-        "artist":  "N.M.R",
-        "bpm":  132,
-        "banner":  "KEEP ON MOVIN\u0027.png",
-        "sampleStart":  9.099,
-        "sampleLength":  15,
-        "music":  "KEEP ON MOVIN\u0027.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "Kind Lady",
-        "artist":  "OKUYATOS",
-        "bpm":  0,
-        "banner":  "Kind Lady.png",
-        "sampleStart":  44.457,
-        "sampleLength":  15,
-        "music":  "Kind Lady.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "KISS KISS KISS",
-        "artist":  "NAOKI feat. SHANTI",
-        "bpm":  150,
-        "banner":  "KISS KISS KISS.png",
-        "sampleStart":  38.739,
-        "sampleLength":  15,
-        "music":  "KISS KISS KISS.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "Kiss me all night long",
-        "artist":  "NAOKI J-STYLE feat.MIU",
-        "bpm":  155,
-        "banner":  "Kiss me all night long.png",
-        "sampleStart":  63.804,
-        "sampleLength":  15,
-        "music":  "Kiss me all night long.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "L\u0027amour et la liberté(DDR Ver.)",
-        "artist":  "NAOKI underground",
-        "bpm":  145,
-        "banner":  "L\u0027amour et la liberte(DDR Ver.).png",
-        "sampleStart":  68.389,
-        "sampleLength":  15,
-        "music":  "L\u0027amour et la liberte(DDR Ver.).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "LA BAMBA",
-        "artist":  "メキシコ民謡",
-        "bpm":  179,
-        "banner":  "LA BAMBA.png",
-        "sampleStart":  9.555,
-        "sampleLength":  15,
-        "music":  "LA BAMBA.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "LA COPA DE LA VIDA",
-        "artist":  "PATRICK VICTORIO",
-        "bpm":  134,
-        "banner":  "LA COPA DE LA VIDA.png",
-        "sampleStart":  55.529,
-        "sampleLength":  15,
-        "music":  "LA COPA DE LA VIDA.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "La Señorita",
-        "artist":  "CAPTAIN.T",
-        "bpm":  182,
-        "banner":  "La Senorita.png",
-        "sampleStart":  35.108,
-        "sampleLength":  15,
-        "music":  "La Senorita.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "Last Message",
-        "artist":  "good-cool feat. Meg",
-        "bpm":  155,
-        "banner":  "Last Message.png",
-        "sampleStart":  40.221,
-        "sampleLength":  15,
-        "music":  "Last Message.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "LET THEM MOVE",
-        "artist":  "N.M.R",
-        "bpm":  115,
-        "banner":  "LET THEM MOVE.png",
-        "sampleStart":  43.788,
-        "sampleLength":  15,
-        "music":  "LET THEM MOVE.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "Look To The Sky(True Color Mix)",
-        "artist":  "SySF. feat.Anna",
-        "bpm":  140,
-        "banner":  "Look To The Sky(True Color Mix).png",
-        "sampleStart":  22.287,
-        "sampleLength":  15,
-        "music":  "Look To The Sky(True Color Mix).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "LOVE♥SHINE",
-        "artist":  "小坂りゆ",
-        "bpm":  177,
-        "banner":  "LOVE LOVE SHINE.png",
-        "sampleStart":  44.751,
-        "sampleLength":  15,
-        "music":  "LOVE LOVE SHINE.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "♥LOVE²シュガ→♥",
-        "artist":  "dj TAKA Feat.のりあ",
-        "bpm":  155,
-        "banner":  "LOVE LOVE SUGAR.png",
-        "sampleStart":  44.879,
-        "sampleLength":  15,
-        "music":  "LOVE LOVE SUGAR.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "LUV TO ME (AMD MIX)",
-        "artist":  "DJ KAZU feat. tiger YAMATO",
-        "bpm":  154,
-        "banner":  "LUV TO ME (AMD MIX).png",
-        "sampleStart":  43.453,
-        "sampleLength":  15,
-        "music":  "LUV TO ME (AMD MIX).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "魔法の扉(スペース☆マコのテーマ)",
-        "artist":  "a.s.a.",
-        "bpm":  184,
-        "banner":  "Mahou no tobira(SPACE MACO no theme).png",
-        "sampleStart":  13.035,
-        "sampleLength":  15,
-        "music":  "Mahou no tobira(SPACE MACO no theme).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "MEMORIES",
-        "artist":  "NAOKI feat. PAULA TERRY",
-        "bpm":  145,
-        "banner":  "MEMORIES.png",
-        "sampleStart":  41.407,
-        "sampleLength":  15,
-        "music":  "MEMORIES.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "三毛猫ロック",
-        "artist":  "亜熱帯マジ-SKA爆弾",
-        "bpm":  246,
-        "banner":  "Mikeneko rock.png",
-        "sampleStart":  6.839,
-        "sampleLength":  15,
-        "music":  "Mikeneko rock.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "Miracle Moon ～L.E.D.LIGHT STYLE MIX～",
-        "artist":  "Togo Project feat.Sana",
-        "bpm":  138,
-        "banner":  "Miracle Moon ~L.E.D.LIGHT STYLE MIX~.png",
-        "sampleStart":  34.783,
-        "sampleLength":  15,
-        "music":  "Miracle Moon ~L.E.D.LIGHT STYLE MIX~.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "MOBO★MOGA",
-        "artist":  "Orange Lounge",
-        "bpm":  0,
-        "banner":  "MOBO MOGA.png",
-        "sampleStart":  28.964,
-        "sampleLength":  15,
-        "music":  "MOBO MOGA.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "MR. WONDERFUL",
-        "artist":  "SMILE.dk",
-        "bpm":  138,
-        "banner":  "MR. WONDERFUL.png",
-        "sampleStart":  59.13,
-        "sampleLength":  15,
-        "music":  "MR. WONDERFUL.ogg",
-        "difficulties":  [
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "OH NICK PLEASE NOT SO QUICK",
-        "artist":  "E-ROTIC",
-        "bpm":  130,
-        "banner":  "OH NICK PLEASE NOT SO QUICK.png",
-        "sampleStart":  54.101,
-        "sampleLength":  15,
-        "music":  "OH NICK PLEASE NOT SO QUICK.ogg",
-        "difficulties":  [
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "OPERATOR",
-        "artist":  "PAPAYA",
-        "bpm":  135,
-        "banner":  "OPERATOR.png",
-        "sampleStart":  58.678,
-        "sampleLength":  15,
-        "music":  "OPERATOR.ogg",
-        "difficulties":  [
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "PARANOiA Rebirth",
-        "artist":  "190\u0027",
-        "bpm":  190,
-        "banner":  "PARANOiA Rebirth.png",
-        "sampleStart":  1.269,
-        "sampleLength":  15,
-        "music":  "PARANOiA Rebirth.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "PARANOIA survivor",
-        "artist":  "270",
-        "bpm":  135,
-        "banner":  "PARANOIA survivor.png",
-        "sampleStart":  75.553,
-        "sampleLength":  15,
-        "music":  "PARANOIA survivor.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "PARANOIA survivor MAX",
-        "artist":  "290",
-        "bpm":  145,
-        "banner":  "PARANOIA survivor MAX.png",
-        "sampleStart":  70.344,
-        "sampleLength":  15,
-        "music":  "PARANOIA survivor MAX.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "Pink Rose",
-        "artist":  "Kiyommy+Seiya",
-        "bpm":  146,
-        "banner":  "Pink Rose.png",
-        "sampleStart":  58.356,
-        "sampleLength":  15,
-        "music":  "Pink Rose.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "ROCK BEAT",
-        "artist":  "LOUD FORCE",
-        "bpm":  0,
-        "banner":  "ROCK BEAT.png",
-        "sampleStart":  30.4,
-        "sampleLength":  15,
-        "music":  "ROCK BEAT.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "桜",
-        "artist":  "RevenG",
-        "bpm":  20,
-        "banner":  "SAKURA.png",
-        "sampleStart":  20.002,
-        "sampleLength":  14,
-        "music":  "SAKURA.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "SENORITA(Speedy Mix)",
-        "artist":  "JENNY ROM",
-        "bpm":  174,
-        "banner":  "SENORITA(Speedy Mix).png",
-        "sampleStart":  50.307,
-        "sampleLength":  15,
-        "music":  "SENORITA(Speedy Mix).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "Silent Hill",
-        "artist":  "THOMAS HOWARD",
-        "bpm":  0,
-        "banner":  "Silent Hill.png",
-        "sampleStart":  33.09,
-        "sampleLength":  15,
-        "music":  "Silent Hill.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "SO IN LOVE",
-        "artist":  "Caramel.S",
-        "bpm":  112,
-        "banner":  "SO IN LOVE.png",
-        "sampleStart":  55.717,
-        "sampleLength":  15,
-        "music":  "SO IN LOVE.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "SO MANY MEN",
-        "artist":  "ME \u0026 MY",
-        "bpm":  120,
-        "banner":  "SO MANY MEN.png",
-        "sampleStart":  48.356,
-        "sampleLength":  15,
-        "music":  "SO MANY MEN.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "SPEED OVER BEETHOVEN",
-        "artist":  "ROSE",
-        "bpm":  169,
-        "banner":  "SPEED OVER BEETHOVEN.png",
-        "sampleStart":  27.874,
-        "sampleLength":  15,
-        "music":  "SPEED OVER BEETHOVEN.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "STAY (Organic house Version)",
-        "artist":  "emi",
-        "bpm":  125,
-        "banner":  "STAY (Organic house Version).png",
-        "sampleStart":  49.863,
-        "sampleLength":  15,
-        "music":  "STAY (Organic house Version).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "stoic (EXTREME version)",
-        "artist":  "TaQ",
-        "bpm":  155,
-        "banner":  "stoic (EXTREME version).png",
-        "sampleStart":  58.839,
-        "sampleLength":  15,
-        "music":  "stoic (EXTREME version).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "sync (EXTREME version)",
-        "artist":  "OutPhase",
-        "bpm":  167,
-        "banner":  "sync (EXTREME version).png",
-        "sampleStart":  71.87,
-        "sampleLength":  15,
-        "music":  "sync (EXTREME version).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "TEARS",
-        "artist":  "NAOKI underground feat.EK",
-        "bpm":  143,
-        "banner":  "TEARS.png",
-        "sampleStart":  40.28,
-        "sampleLength":  15,
-        "music":  "TEARS.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "The Least 100sec",
-        "artist":  "Hirofumi Sasaki",
-        "bpm":  200,
-        "banner":  "The Least 100sec.png",
-        "sampleStart":  0.913,
-        "sampleLength":  15,
-        "music":  "The Least 100sec.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "The legend of MAX",
-        "artist":  "ZZ",
-        "bpm":  83,
-        "banner":  "The legend of MAX.png",
-        "sampleStart":  12.255,
-        "sampleLength":  15,
-        "music":  "The legend of MAX.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "THE RACE",
-        "artist":  "CAPTAIN JACK",
-        "bpm":  143,
-        "banner":  "THE RACE.png",
-        "sampleStart":  49.921,
-        "sampleLength":  15,
-        "music":  "THE RACE.ogg",
-        "difficulties":  [
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "TRIP MACHINE survivor",
-        "artist":  "DE-SIRE",
-        "bpm":  170,
-        "banner":  "TRIP MACHINE survivor.png",
-        "sampleStart":  16.944,
-        "sampleLength":  15,
-        "music":  "TRIP MACHINE survivor.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "TURN ME ON (HEAVENLY MIX)",
-        "artist":  "E-ROTIC",
-        "bpm":  170,
-        "banner":  "TURN ME ON (HEAVENLY MIX).png",
-        "sampleStart":  50.114,
-        "sampleLength":  15,
-        "music":  "TURN ME ON (HEAVENLY MIX).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "Twin Bee -Generation X-",
-        "artist":  "FinalOffset",
-        "bpm":  169,
-        "banner":  "Twin Bee -Generation X-.png",
-        "sampleStart":  21.313,
-        "sampleLength":  15,
-        "music":  "Twin Bee -Generation X-.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "UPSIDE DOWN",
-        "artist":  "COO COO",
-        "bpm":  124,
-        "banner":  "UPSIDE DOWN.png",
-        "sampleStart":  44.264,
-        "sampleLength":  15,
-        "music":  "UPSIDE DOWN.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "V ～for EXTREME～",
-        "artist":  "TAKA",
-        "bpm":  150,
-        "banner":  "V ~for EXTREME~.png",
-        "sampleStart":  83.2,
-        "sampleLength":  15,
-        "music":  "V ~for EXTREME~.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "VANITY ANGEL",
-        "artist":  "FIXX",
-        "bpm":  140,
-        "banner":  "VANITY ANGEL.png",
-        "sampleStart":  36.034,
-        "sampleLength":  15,
-        "music":  "VANITY ANGEL.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "VOL.4",
-        "artist":  "RAVERS CHOICE",
-        "bpm":  165,
-        "banner":  "VOL.4.png",
-        "sampleStart":  53.841,
-        "sampleLength":  15,
-        "music":  "VOL.4.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "WE ARE THE CHAMPIONS (Factory Team Remix)",
-        "artist":  "LIVE 2 LOVE",
-        "bpm":  136,
-        "banner":  "WE ARE THE CHAMPIONS (Factory Team Remix).png",
-        "sampleStart":  45.883,
-        "sampleLength":  15,
-        "music":  "WE ARE THE CHAMPIONS (Factory Team Remix).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "WE WILL ROCK YOU",
-        "artist":  "HOUSEBOYZ",
-        "bpm":  90,
-        "banner":  "WE WILL ROCK YOU.png",
-        "sampleStart":  50.639,
-        "sampleLength":  15,
-        "music":  "WE WILL ROCK YOU.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "White Lovers",
-        "artist":  "新谷さなえ",
-        "bpm":  125,
-        "banner":  "White Lovers.png",
-        "sampleStart":  66.567,
-        "sampleLength":  15,
-        "music":  "White Lovers.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    },
-    {
-        "name":  "WONDERLAND (UKS MIX)",
-        "artist":  "X-TREME",
-        "bpm":  128,
-        "banner":  "WONDERLAND (UKS MIX).png",
-        "sampleStart":  56.256,
-        "sampleLength":  15,
-        "music":  "WONDERLAND (UKS MIX).ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "XANADU",
-        "artist":  "THE OLIVIA PROJECT",
-        "bpm":  130,
-        "banner":  "XANADU.png",
-        "sampleStart":  48.011,
-        "sampleLength":  15,
-        "music":  "XANADU.ogg",
-        "difficulties":  [
-                             "Easy",
-                             "Medium",
-                             "Hard",
-                             "Challenge"
-                         ]
-    },
-    {
-        "name":  "xenon",
-        "artist":  "Mr.T",
-        "bpm":  158,
-        "banner":  "xenon.png",
-        "sampleStart":  19.749,
-        "sampleLength":  15,
-        "music":  "xenon.ogg",
-        "difficulties":  [
-                             "Beginner",
-                             "Easy",
-                             "Medium",
-                             "Hard"
-                         ]
-    }
+  {
+    "name": "1998",
+    "artist": "NAOKI",
+    "bpm": 150,
+    "banner": "1998.png",
+    "sampleStart": 28.009,
+    "sampleLength": 15,
+    "music": "1998.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "20,NOVEMBER (D.D.R. version)",
+    "artist": "N.M.R. feat. DJ.nagureo",
+    "bpm": 130,
+    "banner": "20,NOVEMBER (D.D.R. version).png",
+    "sampleStart": 53.499,
+    "sampleLength": 15,
+    "music": "20,NOVEMBER (D.D.R. version).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "321STARS",
+    "artist": "DJ SIMON",
+    "bpm": 192,
+    "banner": "321STARS.png",
+    "sampleStart": 18.748,
+    "sampleLength": 15,
+    "music": "321STARS.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "A",
+    "artist": "D.J. Amuro",
+    "bpm": 93,
+    "banner": "A.png",
+    "sampleStart": 56.116,
+    "sampleLength": 15,
+    "music": "A.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "Across the nightmare",
+    "artist": "Jimmy Weckl",
+    "bpm": 300,
+    "banner": "Across the nightmare.png",
+    "sampleStart": 34.396,
+    "sampleLength": 15,
+    "music": "Across the nightmare.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "AFRONOVA",
+    "artist": "RE-VENGE",
+    "bpm": 0,
+    "banner": "AFRONOVA.png",
+    "sampleStart": 30,
+    "sampleLength": 15,
+    "music": "AFRONOVA.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "air",
+    "artist": "DJ SIMON",
+    "bpm": 130,
+    "banner": "air.png",
+    "sampleStart": 8.973,
+    "sampleLength": 15,
+    "music": "air.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "AM-3P -303 BASS MIX-",
+    "artist": "KTz (remixed by U1)",
+    "bpm": 130,
+    "banner": "AM-3P -303 BASS MIX-.png",
+    "sampleStart": 24.008,
+    "sampleLength": 15,
+    "music": "AM-3P -303 BASS MIX-.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "bag",
+    "artist": "RevenG",
+    "bpm": 65,
+    "banner": "bag.png",
+    "sampleStart": 11.075,
+    "sampleLength": 15,
+    "music": "bag.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "BE LOVIN",
+    "artist": "D-Crew",
+    "bpm": 185,
+    "banner": "BE LOVIN.png",
+    "sampleStart": 10.357,
+    "sampleLength": 15,
+    "music": "BE LOVIN.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "BEATS LIKE THIS",
+    "artist": "UNKNOWN PROJECT",
+    "bpm": 176,
+    "banner": "BEATS LIKE THIS.png",
+    "sampleStart": 45.044,
+    "sampleLength": 15,
+    "music": "BEATS LIKE THIS.ogg",
+    "difficulties": ["Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "BOOM BOOM DOLLAR (K.O.G G3 MIX)",
+    "artist": "King Kong \u0026 D.Jungle Girls",
+    "bpm": 170,
+    "banner": "BOOM BOOM DOLLAR (K.O.G G3 MIX).png",
+    "sampleStart": 35.3,
+    "sampleLength": 15,
+    "music": "BOOM BOOM DOLLAR (K.O.G G3 MIX).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "BURNIN\u0027 THE FLOOR (MOMO MIX)",
+    "artist": "NAOKI",
+    "bpm": 170,
+    "banner": "BURNIN\u0027 THE FLOOR (MOMO MIX).png",
+    "sampleStart": 52.229,
+    "sampleLength": 15,
+    "music": "BURNIN\u0027 THE FLOOR (MOMO MIX).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "butterfly (UPSWING MIX)",
+    "artist": "SMILE.dk",
+    "bpm": 170,
+    "banner": "butterfly (UPSWING MIX).png",
+    "sampleStart": 7.058,
+    "sampleLength": 15,
+    "music": "butterfly (UPSWING MIX).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "CAN\u0027T TAKE MY EYES OFF YOU (70\u0027s Remix)",
+    "artist": "BEAT BOX",
+    "bpm": 134,
+    "banner": "CAN\u0027T TAKE MY EYES OFF YOU (70\u0027s Remix).png",
+    "sampleStart": 16.563,
+    "sampleLength": 15,
+    "music": "CAN\u0027T TAKE MY EYES OFF YOU (70\u0027s Remix).ogg",
+    "difficulties": ["Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "CAPTAIN JACK (GRANDALE REMIX)",
+    "artist": "CAPTAIN JACK",
+    "bpm": 170,
+    "banner": "CAPTAIN JACK (GRANDALE REMIX).png",
+    "sampleStart": 50.822,
+    "sampleLength": 15,
+    "music": "CAPTAIN JACK (GRANDALE REMIX).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "CARTOON HEROES (Speedy Mix)",
+    "artist": "BARBIE YOUNG",
+    "bpm": 170,
+    "banner": "CARTOON HEROES (Speedy Mix).png",
+    "sampleStart": 56.468,
+    "sampleLength": 15,
+    "music": "CARTOON HEROES (Speedy Mix).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "Colors ～for EXTREME～",
+    "artist": "dj TAKA",
+    "bpm": 150,
+    "banner": "Colors ~for EXTREME~.png",
+    "sampleStart": 77.96,
+    "sampleLength": 15,
+    "music": "Colors ~for EXTREME~.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "CRASH!",
+    "artist": "mr.BRIAN \u0026 THE FINAL BAND",
+    "bpm": 200,
+    "banner": "CRASH!.png",
+    "sampleStart": 50.407,
+    "sampleLength": 15,
+    "music": "CRASH!.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "CUTIE CHASER(MORNING MIX)",
+    "artist": "CLUB SPICE",
+    "bpm": 126,
+    "banner": "CUTIE CHASER(MORNING MIX).png",
+    "sampleStart": 35.676,
+    "sampleLength": 15,
+    "music": "CUTIE CHASER(MORNING MIX).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "大見解",
+    "artist": "Des-ROW feat. TSUBOI for ALPHA",
+    "bpm": 143,
+    "banner": "DAIKENKAI.png",
+    "sampleStart": 61.34,
+    "sampleLength": 15,
+    "music": "DAIKENKAI.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "DAM DARIRAM",
+    "artist": "JOGA",
+    "bpm": 142,
+    "banner": "DAM DARIRAM.png",
+    "sampleStart": 56.69,
+    "sampleLength": 15,
+    "music": "DAM DARIRAM.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "Dance Dance Revolution",
+    "artist": "DDR ALL STARS",
+    "bpm": 150,
+    "banner": "Dance Dance Revolution.png",
+    "sampleStart": 28.801,
+    "sampleLength": 15,
+    "music": "Dance Dance Revolution.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "DEAD END",
+    "artist": "N \u0026 S",
+    "bpm": 190,
+    "banner": "DEAD END.png",
+    "sampleStart": 54.317,
+    "sampleLength": 15,
+    "music": "DEAD END.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "Destiny lovers",
+    "artist": "くにたけみゆき",
+    "bpm": 170,
+    "banner": "Destiny lovers.png",
+    "sampleStart": 51.766,
+    "sampleLength": 15,
+    "music": "Destiny lovers.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "DO IT ALL NIGHT",
+    "artist": "E-ROTIC",
+    "bpm": 143,
+    "banner": "DO IT ALL NIGHT.png",
+    "sampleStart": 44.062,
+    "sampleLength": 15,
+    "music": "DO IT ALL NIGHT.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "Do It Right(Harmonized 2Step Mix)",
+    "artist": "SOTA feat.Ebony Fay",
+    "bpm": 0,
+    "banner": "Do It Right(Harmonized 2Step Mix).png",
+    "sampleStart": 44.444,
+    "sampleLength": 15,
+    "music": "Do It Right(Harmonized 2Step Mix).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "DROP THE BOMB(SyS.F. Mix)",
+    "artist": "Scotty D.",
+    "bpm": 150,
+    "banner": "DROP THE BOMB(SyS.F. Mix).png",
+    "sampleStart": 14.401,
+    "sampleLength": 15,
+    "music": "DROP THE BOMB(SyS.F. Mix).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "DYNAMITE RAVE",
+    "artist": "NAOKI",
+    "bpm": 150,
+    "banner": "DYNAMITE RAVE.png",
+    "sampleStart": 40.798,
+    "sampleLength": 15,
+    "music": "DYNAMITE RAVE.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "DYNAMITE RAVE(Down Bird SOTA Mix)",
+    "artist": "NAOKI",
+    "bpm": 150,
+    "banner": "DYNAMITE RAVE(Down Bird SOTA Mix).png",
+    "sampleStart": 41.58,
+    "sampleLength": 15,
+    "music": "DYNAMITE RAVE(Down Bird SOTA Mix).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "END OF THE CENTURY",
+    "artist": "NO.9",
+    "bpm": 0,
+    "banner": "END OF THE CENTURY.png",
+    "sampleStart": 80,
+    "sampleLength": 15,
+    "music": "END OF THE CENTURY.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "feeling of love",
+    "artist": "youhei shimizu",
+    "bpm": 136,
+    "banner": "feeling of love.png",
+    "sampleStart": 47.471,
+    "sampleLength": 15,
+    "music": "feeling of love.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "FLASHDANCE (WHAT A FEELING)",
+    "artist": "MAGIKA",
+    "bpm": 167,
+    "banner": "FLASHDANCE (WHAT A FEELING).png",
+    "sampleStart": 18.116,
+    "sampleLength": 15,
+    "music": "FLASHDANCE (WHAT A FEELING).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "FOLLOW THE SUN (90 IN THE SHADE MIX)",
+    "artist": "TRIPLE J",
+    "bpm": 170,
+    "banner": "FOLLOW THE SUN (90 IN THE SHADE MIX).png",
+    "sampleStart": 23.992,
+    "sampleLength": 15,
+    "music": "FOLLOW THE SUN (90 IN THE SHADE MIX).ogg",
+    "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "Frozen Ray ～for EXTREME～",
+    "artist": "dj TAKA",
+    "bpm": 156,
+    "banner": "Frozen Ray ~for EXTREME~.png",
+    "sampleStart": 26.153,
+    "sampleLength": 15,
+    "music": "Frozen Ray ~for EXTREME~.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "Gamelan de Couple",
+    "artist": "TOMOSUKE",
+    "bpm": 150,
+    "banner": "Gamelan de Couple.png",
+    "sampleStart": 30.4,
+    "sampleLength": 15,
+    "music": "Gamelan de Couple.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "gentle stress (AMD SEXUAL MIX)",
+    "artist": "MR.DOG feat. DJ SWAN",
+    "bpm": 160,
+    "banner": "gentle stress (AMD SEXUAL MIX).png",
+    "sampleStart": 61.5,
+    "sampleLength": 15,
+    "music": "gentle stress (AMD SEXUAL MIX).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "GET UP (BEFORE THE NIGHT IS OVER)",
+    "artist": "TECHNOTRONIC feat. YA KID K",
+    "bpm": 124,
+    "banner": "GET UP (BEFORE THE NIGHT IS OVER).png",
+    "sampleStart": 25.158,
+    "sampleLength": 15,
+    "music": "GET UP (BEFORE THE NIGHT IS OVER).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "GET UP AND DANCE",
+    "artist": "FREEDOM",
+    "bpm": 109,
+    "banner": "GET UP AND DANCE.png",
+    "sampleStart": 66.276,
+    "sampleLength": 15,
+    "music": "GET UP AND DANCE.ogg",
+    "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "GRADIUSIC CYBER ～AMD G5 MIX～",
+    "artist": "BIG-O feat. TAKA",
+    "bpm": 160,
+    "banner": "GRADIUSIC CYBER ~AMD G5 MIX~.png",
+    "sampleStart": 51,
+    "sampleLength": 15,
+    "music": "GRADIUSIC CYBER ~AMD G5 MIX~.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "GRADUATION ～それぞれの明日～",
+    "artist": "BeForU",
+    "bpm": 125,
+    "banner": "GRADUATION.png",
+    "sampleStart": 31.928,
+    "sampleLength": 15,
+    "music": "GRADUATION.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "Happy Wedding",
+    "artist": "ASKA",
+    "bpm": 126,
+    "banner": "Happy Wedding.png",
+    "sampleStart": 47.633,
+    "sampleLength": 15,
+    "music": "Happy Wedding.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "Heaven is a \u002757 metallic gray ～gimmix～",
+    "artist": "Hiro feat.Sweet little 30\u0027s",
+    "bpm": 190,
+    "banner": "Heaven is a \u002757 metallic gray ~gimmix~.png",
+    "sampleStart": 13.586,
+    "sampleLength": 15,
+    "music": "Heaven is a \u002757 metallic gray ~gimmix~.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "HOLD ON ME",
+    "artist": "tiger yamato",
+    "bpm": 0,
+    "banner": "HOLD ON ME.png",
+    "sampleStart": 63.134,
+    "sampleLength": 15,
+    "music": "HOLD ON ME.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "HOLIDAY",
+    "artist": "WHO\u0027S THAT GIRL!",
+    "bpm": 128,
+    "banner": "HOLIDAY.png",
+    "sampleStart": 16.407,
+    "sampleLength": 15,
+    "music": "HOLIDAY.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "HYPER EUROBEAT",
+    "artist": "NAOKI feat. DDR ALL STARS",
+    "bpm": 0,
+    "banner": "HYPER EUROBEAT.png",
+    "sampleStart": 38.655,
+    "sampleLength": 15,
+    "music": "HYPER EUROBEAT.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "I DO I DO I DO",
+    "artist": "CREAMY",
+    "bpm": 134,
+    "banner": "I DO I DO I DO.png",
+    "sampleStart": 43.626,
+    "sampleLength": 15,
+    "music": "I DO I DO I DO.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "I\u0027m gonna get you!",
+    "artist": "Kelly Cosmo",
+    "bpm": 160,
+    "banner": "I\u0027m gonna get you!.png",
+    "sampleStart": 37.506,
+    "sampleLength": 12,
+    "music": "I\u0027m gonna get you!.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "IF YOU CAN SAY GOODBYE",
+    "artist": "KATE PROJECT",
+    "bpm": 0,
+    "banner": "IF YOU CAN SAY GOODBYE.png",
+    "sampleStart": 40.887,
+    "sampleLength": 15,
+    "music": "IF YOU CAN SAY GOODBYE.ogg",
+    "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "IN THE NAVY \u002799 (XXL Disaster Remix)",
+    "artist": "CAPTAIN JACK",
+    "bpm": 135,
+    "banner": "IN THE NAVY \u002799 (XXL Disaster Remix).png",
+    "sampleStart": 19.111,
+    "sampleLength": 15,
+    "music": "IN THE NAVY \u002799 (XXL Disaster Remix).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "IRRESISTIBLEMENT",
+    "artist": "WILDSIDE",
+    "bpm": 166,
+    "banner": "IRRESISTIBLEMENT.png",
+    "sampleStart": 11.56,
+    "sampleLength": 15,
+    "music": "IRRESISTIBLEMENT.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "IT ONLY TAKES A MINUTE (Extended Remix)",
+    "artist": "TAVARES",
+    "bpm": 122,
+    "banner": "IT ONLY TAKES A MINUTE (Extended Remix).png",
+    "sampleStart": 9.572,
+    "sampleLength": 15,
+    "music": "IT ONLY TAKES A MINUTE (Extended Remix).ogg",
+    "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "Jam Jam Reggae",
+    "artist": "RICE.C feat. jam master \u002773",
+    "bpm": 90,
+    "banner": "Jam Jam Reggae.png",
+    "sampleStart": 50.662,
+    "sampleLength": 15,
+    "music": "Jam Jam Reggae.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "jane jana",
+    "artist": "T.E.M.P.O. feat.Mohammed \u0026 Emi",
+    "bpm": 125,
+    "banner": "jane jana.png",
+    "sampleStart": 63.363,
+    "sampleLength": 15,
+    "music": "jane jana.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "JET WORLD",
+    "artist": "Mutsuhiko Izumi",
+    "bpm": 138,
+    "banner": "JET WORLD.png",
+    "sampleStart": 12.196,
+    "sampleLength": 15,
+    "music": "JET WORLD.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "KEEP ON MOVIN\u0027",
+    "artist": "N.M.R",
+    "bpm": 132,
+    "banner": "KEEP ON MOVIN\u0027.png",
+    "sampleStart": 9.099,
+    "sampleLength": 15,
+    "music": "KEEP ON MOVIN\u0027.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "Kind Lady",
+    "artist": "OKUYATOS",
+    "bpm": 0,
+    "banner": "Kind Lady.png",
+    "sampleStart": 44.457,
+    "sampleLength": 15,
+    "music": "Kind Lady.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "KISS KISS KISS",
+    "artist": "NAOKI feat. SHANTI",
+    "bpm": 150,
+    "banner": "KISS KISS KISS.png",
+    "sampleStart": 38.739,
+    "sampleLength": 15,
+    "music": "KISS KISS KISS.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "Kiss me all night long",
+    "artist": "NAOKI J-STYLE feat.MIU",
+    "bpm": 155,
+    "banner": "Kiss me all night long.png",
+    "sampleStart": 63.804,
+    "sampleLength": 15,
+    "music": "Kiss me all night long.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "L\u0027amour et la liberté(DDR Ver.)",
+    "artist": "NAOKI underground",
+    "bpm": 145,
+    "banner": "L\u0027amour et la liberte(DDR Ver.).png",
+    "sampleStart": 68.389,
+    "sampleLength": 15,
+    "music": "L\u0027amour et la liberte(DDR Ver.).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "LA BAMBA",
+    "artist": "メキシコ民謡",
+    "bpm": 179,
+    "banner": "LA BAMBA.png",
+    "sampleStart": 9.555,
+    "sampleLength": 15,
+    "music": "LA BAMBA.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "LA COPA DE LA VIDA",
+    "artist": "PATRICK VICTORIO",
+    "bpm": 134,
+    "banner": "LA COPA DE LA VIDA.png",
+    "sampleStart": 55.529,
+    "sampleLength": 15,
+    "music": "LA COPA DE LA VIDA.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "La Señorita",
+    "artist": "CAPTAIN.T",
+    "bpm": 182,
+    "banner": "La Senorita.png",
+    "sampleStart": 35.108,
+    "sampleLength": 15,
+    "music": "La Senorita.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "Last Message",
+    "artist": "good-cool feat. Meg",
+    "bpm": 155,
+    "banner": "Last Message.png",
+    "sampleStart": 40.221,
+    "sampleLength": 15,
+    "music": "Last Message.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "LET THEM MOVE",
+    "artist": "N.M.R",
+    "bpm": 115,
+    "banner": "LET THEM MOVE.png",
+    "sampleStart": 43.788,
+    "sampleLength": 15,
+    "music": "LET THEM MOVE.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "Look To The Sky(True Color Mix)",
+    "artist": "SySF. feat.Anna",
+    "bpm": 140,
+    "banner": "Look To The Sky(True Color Mix).png",
+    "sampleStart": 22.287,
+    "sampleLength": 15,
+    "music": "Look To The Sky(True Color Mix).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "LOVE♥SHINE",
+    "artist": "小坂りゆ",
+    "bpm": 177,
+    "banner": "LOVE LOVE SHINE.png",
+    "sampleStart": 44.751,
+    "sampleLength": 15,
+    "music": "LOVE LOVE SHINE.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "♥LOVE²シュガ→♥",
+    "artist": "dj TAKA Feat.のりあ",
+    "bpm": 155,
+    "banner": "LOVE LOVE SUGAR.png",
+    "sampleStart": 44.879,
+    "sampleLength": 15,
+    "music": "LOVE LOVE SUGAR.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "LUV TO ME (AMD MIX)",
+    "artist": "DJ KAZU feat. tiger YAMATO",
+    "bpm": 154,
+    "banner": "LUV TO ME (AMD MIX).png",
+    "sampleStart": 43.453,
+    "sampleLength": 15,
+    "music": "LUV TO ME (AMD MIX).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "魔法の扉(スペース☆マコのテーマ)",
+    "artist": "a.s.a.",
+    "bpm": 184,
+    "banner": "Mahou no tobira(SPACE MACO no theme).png",
+    "sampleStart": 13.035,
+    "sampleLength": 15,
+    "music": "Mahou no tobira(SPACE MACO no theme).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "MEMORIES",
+    "artist": "NAOKI feat. PAULA TERRY",
+    "bpm": 145,
+    "banner": "MEMORIES.png",
+    "sampleStart": 41.407,
+    "sampleLength": 15,
+    "music": "MEMORIES.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "三毛猫ロック",
+    "artist": "亜熱帯マジ-SKA爆弾",
+    "bpm": 246,
+    "banner": "Mikeneko rock.png",
+    "sampleStart": 6.839,
+    "sampleLength": 15,
+    "music": "Mikeneko rock.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "Miracle Moon ～L.E.D.LIGHT STYLE MIX～",
+    "artist": "Togo Project feat.Sana",
+    "bpm": 138,
+    "banner": "Miracle Moon ~L.E.D.LIGHT STYLE MIX~.png",
+    "sampleStart": 34.783,
+    "sampleLength": 15,
+    "music": "Miracle Moon ~L.E.D.LIGHT STYLE MIX~.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "MOBO★MOGA",
+    "artist": "Orange Lounge",
+    "bpm": 0,
+    "banner": "MOBO MOGA.png",
+    "sampleStart": 28.964,
+    "sampleLength": 15,
+    "music": "MOBO MOGA.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "MR. WONDERFUL",
+    "artist": "SMILE.dk",
+    "bpm": 138,
+    "banner": "MR. WONDERFUL.png",
+    "sampleStart": 59.13,
+    "sampleLength": 15,
+    "music": "MR. WONDERFUL.ogg",
+    "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "OH NICK PLEASE NOT SO QUICK",
+    "artist": "E-ROTIC",
+    "bpm": 130,
+    "banner": "OH NICK PLEASE NOT SO QUICK.png",
+    "sampleStart": 54.101,
+    "sampleLength": 15,
+    "music": "OH NICK PLEASE NOT SO QUICK.ogg",
+    "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "OPERATOR",
+    "artist": "PAPAYA",
+    "bpm": 135,
+    "banner": "OPERATOR.png",
+    "sampleStart": 58.678,
+    "sampleLength": 15,
+    "music": "OPERATOR.ogg",
+    "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "PARANOiA Rebirth",
+    "artist": "190\u0027",
+    "bpm": 190,
+    "banner": "PARANOiA Rebirth.png",
+    "sampleStart": 1.269,
+    "sampleLength": 15,
+    "music": "PARANOiA Rebirth.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "PARANOIA survivor",
+    "artist": "270",
+    "bpm": 135,
+    "banner": "PARANOIA survivor.png",
+    "sampleStart": 75.553,
+    "sampleLength": 15,
+    "music": "PARANOIA survivor.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "PARANOIA survivor MAX",
+    "artist": "290",
+    "bpm": 145,
+    "banner": "PARANOIA survivor MAX.png",
+    "sampleStart": 70.344,
+    "sampleLength": 15,
+    "music": "PARANOIA survivor MAX.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "Pink Rose",
+    "artist": "Kiyommy+Seiya",
+    "bpm": 146,
+    "banner": "Pink Rose.png",
+    "sampleStart": 58.356,
+    "sampleLength": 15,
+    "music": "Pink Rose.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "ROCK BEAT",
+    "artist": "LOUD FORCE",
+    "bpm": 0,
+    "banner": "ROCK BEAT.png",
+    "sampleStart": 30.4,
+    "sampleLength": 15,
+    "music": "ROCK BEAT.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "桜",
+    "artist": "RevenG",
+    "bpm": 20,
+    "banner": "SAKURA.png",
+    "sampleStart": 20.002,
+    "sampleLength": 14,
+    "music": "SAKURA.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "SENORITA(Speedy Mix)",
+    "artist": "JENNY ROM",
+    "bpm": 174,
+    "banner": "SENORITA(Speedy Mix).png",
+    "sampleStart": 50.307,
+    "sampleLength": 15,
+    "music": "SENORITA(Speedy Mix).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "Silent Hill",
+    "artist": "THOMAS HOWARD",
+    "bpm": 0,
+    "banner": "Silent Hill.png",
+    "sampleStart": 33.09,
+    "sampleLength": 15,
+    "music": "Silent Hill.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "SO IN LOVE",
+    "artist": "Caramel.S",
+    "bpm": 112,
+    "banner": "SO IN LOVE.png",
+    "sampleStart": 55.717,
+    "sampleLength": 15,
+    "music": "SO IN LOVE.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "SO MANY MEN",
+    "artist": "ME \u0026 MY",
+    "bpm": 120,
+    "banner": "SO MANY MEN.png",
+    "sampleStart": 48.356,
+    "sampleLength": 15,
+    "music": "SO MANY MEN.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "SPEED OVER BEETHOVEN",
+    "artist": "ROSE",
+    "bpm": 169,
+    "banner": "SPEED OVER BEETHOVEN.png",
+    "sampleStart": 27.874,
+    "sampleLength": 15,
+    "music": "SPEED OVER BEETHOVEN.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "STAY (Organic house Version)",
+    "artist": "emi",
+    "bpm": 125,
+    "banner": "STAY (Organic house Version).png",
+    "sampleStart": 49.863,
+    "sampleLength": 15,
+    "music": "STAY (Organic house Version).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "stoic (EXTREME version)",
+    "artist": "TaQ",
+    "bpm": 155,
+    "banner": "stoic (EXTREME version).png",
+    "sampleStart": 58.839,
+    "sampleLength": 15,
+    "music": "stoic (EXTREME version).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "sync (EXTREME version)",
+    "artist": "OutPhase",
+    "bpm": 167,
+    "banner": "sync (EXTREME version).png",
+    "sampleStart": 71.87,
+    "sampleLength": 15,
+    "music": "sync (EXTREME version).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "TEARS",
+    "artist": "NAOKI underground feat.EK",
+    "bpm": 143,
+    "banner": "TEARS.png",
+    "sampleStart": 40.28,
+    "sampleLength": 15,
+    "music": "TEARS.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "The Least 100sec",
+    "artist": "Hirofumi Sasaki",
+    "bpm": 200,
+    "banner": "The Least 100sec.png",
+    "sampleStart": 0.913,
+    "sampleLength": 15,
+    "music": "The Least 100sec.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "The legend of MAX",
+    "artist": "ZZ",
+    "bpm": 83,
+    "banner": "The legend of MAX.png",
+    "sampleStart": 12.255,
+    "sampleLength": 15,
+    "music": "The legend of MAX.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "THE RACE",
+    "artist": "CAPTAIN JACK",
+    "bpm": 143,
+    "banner": "THE RACE.png",
+    "sampleStart": 49.921,
+    "sampleLength": 15,
+    "music": "THE RACE.ogg",
+    "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "TRIP MACHINE survivor",
+    "artist": "DE-SIRE",
+    "bpm": 170,
+    "banner": "TRIP MACHINE survivor.png",
+    "sampleStart": 16.944,
+    "sampleLength": 15,
+    "music": "TRIP MACHINE survivor.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "TURN ME ON (HEAVENLY MIX)",
+    "artist": "E-ROTIC",
+    "bpm": 170,
+    "banner": "TURN ME ON (HEAVENLY MIX).png",
+    "sampleStart": 50.114,
+    "sampleLength": 15,
+    "music": "TURN ME ON (HEAVENLY MIX).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "Twin Bee -Generation X-",
+    "artist": "FinalOffset",
+    "bpm": 169,
+    "banner": "Twin Bee -Generation X-.png",
+    "sampleStart": 21.313,
+    "sampleLength": 15,
+    "music": "Twin Bee -Generation X-.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "UPSIDE DOWN",
+    "artist": "COO COO",
+    "bpm": 124,
+    "banner": "UPSIDE DOWN.png",
+    "sampleStart": 44.264,
+    "sampleLength": 15,
+    "music": "UPSIDE DOWN.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "V ～for EXTREME～",
+    "artist": "TAKA",
+    "bpm": 150,
+    "banner": "V ~for EXTREME~.png",
+    "sampleStart": 83.2,
+    "sampleLength": 15,
+    "music": "V ~for EXTREME~.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "VANITY ANGEL",
+    "artist": "FIXX",
+    "bpm": 140,
+    "banner": "VANITY ANGEL.png",
+    "sampleStart": 36.034,
+    "sampleLength": 15,
+    "music": "VANITY ANGEL.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "VOL.4",
+    "artist": "RAVERS CHOICE",
+    "bpm": 165,
+    "banner": "VOL.4.png",
+    "sampleStart": 53.841,
+    "sampleLength": 15,
+    "music": "VOL.4.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "WE ARE THE CHAMPIONS (Factory Team Remix)",
+    "artist": "LIVE 2 LOVE",
+    "bpm": 136,
+    "banner": "WE ARE THE CHAMPIONS (Factory Team Remix).png",
+    "sampleStart": 45.883,
+    "sampleLength": 15,
+    "music": "WE ARE THE CHAMPIONS (Factory Team Remix).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "WE WILL ROCK YOU",
+    "artist": "HOUSEBOYZ",
+    "bpm": 90,
+    "banner": "WE WILL ROCK YOU.png",
+    "sampleStart": 50.639,
+    "sampleLength": 15,
+    "music": "WE WILL ROCK YOU.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "White Lovers",
+    "artist": "新谷さなえ",
+    "bpm": 125,
+    "banner": "White Lovers.png",
+    "sampleStart": 66.567,
+    "sampleLength": 15,
+    "music": "White Lovers.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  },
+  {
+    "name": "WONDERLAND (UKS MIX)",
+    "artist": "X-TREME",
+    "bpm": 128,
+    "banner": "WONDERLAND (UKS MIX).png",
+    "sampleStart": 56.256,
+    "sampleLength": 15,
+    "music": "WONDERLAND (UKS MIX).ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "XANADU",
+    "artist": "THE OLIVIA PROJECT",
+    "bpm": 130,
+    "banner": "XANADU.png",
+    "sampleStart": 48.011,
+    "sampleLength": 15,
+    "music": "XANADU.ogg",
+    "difficulties": ["Easy", "Medium", "Hard", "Challenge"]
+  },
+  {
+    "name": "xenon",
+    "artist": "Mr.T",
+    "bpm": 158,
+    "banner": "xenon.png",
+    "sampleStart": 19.749,
+    "sampleLength": 15,
+    "music": "xenon.ogg",
+    "difficulties": ["Beginner", "Easy", "Medium", "Hard"]
+  }
 ]

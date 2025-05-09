@@ -1647,7 +1647,7 @@
             if (e.target.name === "difficulty") {
               currentDifficulty = e.target.value;
               // Update URL hash with song and difficulty
-              window.location.hash = `${currentSong.name}|${currentDifficulty}`;
+              window.location.hash = `${currentSong.directory}|${currentDifficulty}`;
               // Show the start button
               startButton.style.display = "inline-block";
               startButton.disabled = false;

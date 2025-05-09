@@ -1,9 +1,3 @@
-﻿#NOTES:
-     dance-couple:
-     :
-     Challenge:
-     8:
-     :
 00000000
 00000000
 00000000

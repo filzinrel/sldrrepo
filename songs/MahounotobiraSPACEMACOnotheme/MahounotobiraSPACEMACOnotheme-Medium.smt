@@ -1,9 +1,3 @@
-﻿#NOTES:
-     dance-single:
-     :
-     Medium:
-     8:
-     :
 0000
 0000
 0000

@@ -1,9 +1,3 @@
-﻿#NOTES:
-     dance-single:
-     :
-     Beginner:
-     2:
-     :
 0000
 0000
 0000

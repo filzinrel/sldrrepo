@@ -123,7 +123,11 @@
       #start-button:hover {
         background: linear-gradient(to right, #28a745, #218838);
       }
-
+      /* Start button disabled state */
+      #start-button:disabled {
+        background: linear-gradient(to right, #ccc, #aaa);
+        cursor: not-allowed;
+      }
       /* Song carousel panel */
       .song-panel {
         display: flex;
@@ -218,7 +222,7 @@
         <div class="preview-panel">
           <video id="preview-video"></video>
           <div id="difficulty-container"></div>
-          <button disabled id="start-button">Start!</button>
+          <button disable id="start-button">Start!</button>
         </div>
       </div>
       <!-- Audio for scroll sound -->
@@ -231,11 +235,11 @@
         // Initialize Vanta WAVES background on the body
         VANTA.WAVES({
           el: "#vanta-bg",
-          color: 0xffffff,
+          color: 0x91ccdc,
           waveHeight: 15.0,
           waveSpeed: 1.25,
-          zoom: 0.75,
-          backgroundColor: 0xeeeeee,
+          zoom: 0.6,
+          backgroundColor: 0xff00dd,
         });
       </script>
 
@@ -403,14 +407,14 @@
           items.forEach((el, i) => {
             // offset from the selected song
             let offset = i - selectedIndex;
-            let perStep = 15;
+            let perStep = 5;
             // positive rotation now leans **left**-side items toward the right
             let angle = offset * perStep;
-            const maxAngle = 45;
+            const maxAngle = 90;
             angle = Math.max(-maxAngle, Math.min(maxAngle, angle));
             if (angle > 0) angle = -angle; // flip the sign for right-side items
             // keep the same z-shift if you like
-            const zShift = Math.cos((angle * Math.PI) / 180) * 100;
+            const zShift = Math.cos((angle * Math.PI) / 180) * 200;
             console.log(
               `Item ${i}: offset=${offset}, angle=${angle}, zShift=${zShift}`
             );
@@ -544,20 +548,28 @@
 
           // Adjust carousel transform to bring selected index into view
           function updateCarousel() {
-            const items = document.querySelectorAll(".song-item");
+            const container = document.getElementById("song-list-container");
+            const listEl = document.getElementById("song-list");
+            const items = listEl.querySelectorAll(".song-item");
             if (items.length === 0) return;
-            const itemHeight = items[0].offsetHeight + 10; // height + margin
-            const visibleCount = 5; // number of visible items in container
-            let offset = 0;
-            if (songsData.length > visibleCount) {
-              // Center selected if possible, else clamp at top/bottom
-              if (selectedIndex > 2 && selectedIndex < songsData.length - 2) {
-                offset = -(selectedIndex - 2) * itemHeight;
-              } else if (selectedIndex >= songsData.length - 2) {
-                offset = -(songsData.length - visibleCount) * itemHeight;
-              }
-            }
-            songListEl.style.transform = `translateY(${offset}px)`;
+
+            // 1) Measure one item’s full height (incl. margin)
+            const style = getComputedStyle(items[0]);
+            const itemHeight =
+              items[0].offsetHeight +
+              parseFloat(style.marginTop) +
+              parseFloat(style.marginBottom);
+
+            // 2) Compute the offset so that selectedIndex is centered
+            const containerHeight = container.clientHeight;
+            // position = center of container     minus     half an item     minus     selectedIndex * itemHeight
+            const yOffset =
+              containerHeight / 2 - itemHeight / 2 - selectedIndex * itemHeight;
+
+            // 3) Apply vertical translate
+            listEl.style.transform = `translateY(${yOffset}px)`;
+
+            // 4) Now re-apply your curve effect
             applyListCurve();
           }
 

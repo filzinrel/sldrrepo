@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SLDR Menu</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        font-family: "Orbitron", sans-serif;
+        color: #222;
+        overflow: hidden;
+      }
+      /* Vanta background container (full-screen) */
+      #vanta-bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 200%;
+        height: 200%;
+        background: linear-gradient(to right, #ffffff00 0%, #ffffff 25%);
+        transform-origin: top left;
+        transform: rotate(-45deg) translateX(-50%);
+        animation: wipe 6s ease-out forwards;
+        z-index: 999;
+      }
+      @keyframes wipe {
+        to {
+          transform: rotate(-45deg) translateX(100%);
+        }
+      }
+      /* Main container with preview and menu side by side */
+      .container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      /* Preview panel on left */
+      .preview-panel {
+        width: 1024px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 40px;
+        flex: 0 0 25em;
+      }
+      /* Video element styling */
+      #preview-video {
+        width: 512px;
+        height: 512px;
+        background: #000;
+        margin-bottom: 20px;
+        /* 3D skew effect */
+        transform: perspective(800px) rotateY(-10deg);
+        transform-origin: left center;
+
+        /* Optional: soften edges with a subtle drop-shadow */
+        box-shadow: 10px 10px 30px rgba(175, 0, 255, 0.7);
+
+        /* Smooth out any changes */
+        transition: transform 0.5s ease;
+      }
+      /* Difficulty options */
+      #difficulty-container {
+        padding-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 10px;
+        font-size: 0.75rem;
+      }
+      /* Hide native radio buttons */
+      #difficulty-container input[type="radio"] {
+        display: none;
+      }
+      /* Style labels as buttons */
+      #difficulty-container label {
+        display: inline-block;
+        padding: 8px 16px;
+        margin: 5px;
+        border: 2px solid #888;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+        user-select: none;
+      }
+      /* Highlight selected difficulty */
+      #difficulty-container input[type="radio"]:checked + label {
+        background-color: #2196f3;
+        color: #fff;
+        border-color: #2196f3;
+      }
+      /* Start button */
+      #start-button {
+        padding: 10px 24px;
+        font-size: 18px;
+        background: linear-gradient(to right, #28a745, #9afbb1);
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-family: "Orbitron", sans-serif;
+        transition: background-color 0.3s;
+      }
+      #start-button:hover {
+        background: linear-gradient(to right, #28a745, #218838);
+      }
+
+      /* Song carousel panel */
+      .song-panel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 0 0 25em;
+      }
+      /* Arrow buttons */
+      .arrow-button {
+        background: rgba(255, 255, 255, 0.8);
+        border: none;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        line-height: 40px;
+        cursor: pointer;
+        margin: 5px;
+        transition: background-color 0.3s;
+      }
+      .arrow-button:hover {
+        background: rgba(255, 255, 255, 1);
+      }
+      /* Song list container with fixed height */
+      #song-list-container {
+        height: 512px;
+        margin: 1rem;
+        padding: 1rem;
+        overflow: visible; /* so rotated items aren’t clipped */
+        margin: 10px 0;
+      }
+      /* Actual song list */
+      #song-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        transition: transform 0.5s ease;
+        transform-style: preserve-3d; /* children keep 3D transforms */
+      }
+      /* Each song item */
+      .song-item {
+        /* …pivot on the right edge */
+        transform-origin: right center;
+        /* keep the rest as-is */
+        transition: transform 0.5s ease;
+        padding: 10px;
+        margin: 5px 0;
+        text-align: center;
+        font-weight: bold;
+        border-radius: 4px;
+        cursor: pointer;
+        border: 2px solid #fff;
+        border-radius: 2rem;
+        color: black;
+        border-bottom: 1px solid #ccc;
+      }
+      .song-item.selected {
+        background: linear-gradient(
+          to right,
+          rgba(91, 207, 249, 0.5),
+          rgba(255, 109, 236, 0.8)
+        );
+        border: 2px solid #fff;
+        transform: scale(1.05);
+        border-radius: 2rem;
+        transition: background-color 1s;
+      }
+      .song-item:hover {
+        border: 2px solid #fff;
+        border-radius: 2rem;
+        background: linear-gradient(
+          to right,
+          rgba(255, 109, 236, 0.8),
+          rgba(91, 207, 249, 0.5)
+        );
+      }
+    </style>
+  </head>
+  <body id="vanta-bg">
+    <div class="overlay"></div>
+    <div>
+      <div class="container">
+        <!-- Song Carousel Panel -->
+        <div class="song-panel">
+          <button id="up-arrow" class="arrow-button">&#9650;</button>
+          <div id="song-list-container">
+            <ul id="song-list"></ul>
+          </div>
+          <button id="down-arrow" class="arrow-button">&#9660;</button>
+        </div>
+        <!-- Preview Panel -->
+        <div class="preview-panel">
+          <video id="preview-video"></video>
+          <div id="difficulty-container"></div>
+          <button disabled id="start-button">Start!</button>
+        </div>
+      </div>
+      <!-- Audio for scroll sound -->
+      <audio id="scroll-sound" src="scroll.wav"></audio>
+
+      <!-- Include Three.js and Vanta.js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+      <script>
+        // Initialize Vanta WAVES background on the body
+        VANTA.WAVES({
+          el: "#vanta-bg",
+          color: 0xffffff,
+          waveHeight: 15.0,
+          waveSpeed: 1.25,
+          zoom: 0.75,
+          backgroundColor: 0xeeeeee,
+        });
+      </script>
+
+      <script>
+        let selectedIndex = 0;
+        const songJson = [
+          {
+            name: "1998",
+            artist: "NAOKI",
+            bpm: 150,
+            banner: "1998.png",
+            sampleStart: 28.009,
+            sampleLength: 15,
+            music: "1998.ogg",
+            difficulties: ["Beginner", "Easy", "Medium", "Hard"],
+          },
+          {
+            name: "20,NOVEMBER (D.D.R. version)",
+            artist: "N.M.R. feat. DJ.nagureo",
+            bpm: 130,
+            banner: "20,NOVEMBER (D.D.R. version).png",
+            sampleStart: 53.499,
+            sampleLength: 15,
+            music: "20,NOVEMBER (D.D.R. version).ogg",
+            difficulties: ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+          },
+          {
+            name: "321STARS",
+            artist: "DJ SIMON",
+            bpm: 192,
+            banner: "321STARS.png",
+            sampleStart: 18.748,
+            sampleLength: 15,
+            music: "321STARS.ogg",
+            difficulties: ["Beginner", "Easy", "Medium", "Hard"],
+          },
+          {
+            name: "A",
+            artist: "D.J. Amuro",
+            bpm: 93,
+            banner: "A.png",
+            sampleStart: 56.116,
+            sampleLength: 15,
+            music: "A.ogg",
+            difficulties: ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+          },
+          {
+            name: "Across the nightmare",
+            artist: "Jimmy Weckl",
+            bpm: 300,
+            banner: "Across the nightmare.png",
+            sampleStart: 34.396,
+            sampleLength: 15,
+            music: "Across the nightmare.ogg",
+            difficulties: ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+          },
+          {
+            name: "AFRONOVA",
+            artist: "RE-VENGE",
+            bpm: 0,
+            banner: "AFRONOVA.png",
+            sampleStart: 30,
+            sampleLength: 15,
+            music: "AFRONOVA.ogg",
+            difficulties: ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+          },
+          {
+            name: "air",
+            artist: "DJ SIMON",
+            bpm: 130,
+            banner: "air.png",
+            sampleStart: 8.973,
+            sampleLength: 15,
+            music: "air.ogg",
+            difficulties: ["Beginner", "Easy", "Medium", "Hard"],
+          },
+          {
+            name: "AM-3P -303 BASS MIX-",
+            artist: "KTz (remixed by U1)",
+            bpm: 130,
+            banner: "AM-3P -303 BASS MIX-.png",
+            sampleStart: 24.008,
+            sampleLength: 15,
+            music: "AM-3P -303 BASS MIX-.ogg",
+            difficulties: ["Beginner", "Easy", "Medium", "Hard"],
+          },
+          {
+            name: "BE LOVIN",
+            artist: "D-Crew",
+            bpm: 185,
+            banner: "BE LOVIN.png",
+            sampleStart: 10.357,
+            sampleLength: 15,
+            music: "BE LOVIN.ogg",
+            difficulties: ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+          },
+          {
+            name: "BEATS LIKE THIS",
+            artist: "UNKNOWN PROJECT",
+            bpm: 176,
+            banner: "BEATS LIKE THIS.png",
+            sampleStart: 45.044,
+            sampleLength: 15,
+            music: "BEATS LIKE THIS.ogg",
+            difficulties: ["Easy", "Medium", "Hard"],
+          },
+          {
+            name: "BOOM BOOM DOLLAR (K.O.G G3 MIX)",
+            artist: "King Kong \u0026 D.Jungle Girls",
+            bpm: 170,
+            banner: "BOOM BOOM DOLLAR (K.O.G G3 MIX).png",
+            sampleStart: 35.3,
+            sampleLength: 15,
+            music: "BOOM BOOM DOLLAR (K.O.G G3 MIX).ogg",
+            difficulties: ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+          },
+          {
+            name: "BURNIN\u0027 THE FLOOR (MOMO MIX)",
+            artist: "NAOKI",
+            bpm: 170,
+            banner: "BURNIN\u0027 THE FLOOR (MOMO MIX).png",
+            sampleStart: 52.229,
+            sampleLength: 15,
+            music: "BURNIN\u0027 THE FLOOR (MOMO MIX).ogg",
+            difficulties: ["Beginner", "Easy", "Medium", "Hard"],
+          },
+          {
+            name: "butterfly (UPSWING MIX)",
+            artist: "SMILE.dk",
+            bpm: 170,
+            banner: "butterfly (UPSWING MIX).png",
+            sampleStart: 7.058,
+            sampleLength: 15,
+            music: "butterfly (UPSWING MIX).ogg",
+            difficulties: ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+          },
+          {
+            name: "CAN\u0027T TAKE MY EYES OFF YOU (70\u0027s Remix)",
+            artist: "BEAT BOX",
+            bpm: 134,
+            banner: "CAN\u0027T TAKE MY EYES OFF YOU (70\u0027s Remix).png",
+            sampleStart: 16.563,
+            sampleLength: 15,
+            music: "CAN\u0027T TAKE MY EYES OFF YOU (70\u0027s Remix).ogg",
+            difficulties: ["Easy", "Medium", "Hard"],
+          },
+          {
+            name: "CAPTAIN JACK (GRANDALE REMIX)",
+            artist: "CAPTAIN JACK",
+            bpm: 170,
+            banner: "CAPTAIN JACK (GRANDALE REMIX).png",
+            sampleStart: 50.822,
+            sampleLength: 15,
+            music: "CAPTAIN JACK (GRANDALE REMIX).ogg",
+            difficulties: ["Beginner", "Easy", "Medium", "Hard", "Challenge"],
+          },
+        ];
+        function applyListCurve() {
+          const items = document.querySelectorAll(".song-item");
+
+          console.log(
+            "Applying curve to song list... with selectedIndex",
+            selectedIndex
+          );
+          items.forEach((el, i) => {
+            // offset from the selected song
+            let offset = i - selectedIndex;
+            let perStep = 15;
+            // positive rotation now leans **left**-side items toward the right
+            let angle = offset * perStep;
+            const maxAngle = 45;
+            angle = Math.max(-maxAngle, Math.min(maxAngle, angle));
+            if (angle > 0) angle = -angle; // flip the sign for right-side items
+            // keep the same z-shift if you like
+            const zShift = Math.cos((angle * Math.PI) / 180) * 100;
+            console.log(
+              `Item ${i}: offset=${offset}, angle=${angle}, zShift=${zShift}`
+            );
+
+            el.style.transform = `
+  rotateY(${angle}deg)
+  translateZ(${zShift}px)
+`;
+          });
+        }
+
+        // Main JavaScript logic after DOM is ready
+        window.addEventListener("DOMContentLoaded", () => {
+          let songsData = [],
+            currentSong = null,
+            currentDifficulty = null;
+          selectedIndex = 0;
+          const songListEl = document.getElementById("song-list");
+          const videoEl = document.getElementById("preview-video");
+          const diffContainer = document.getElementById("difficulty-container");
+          const startButton = document.getElementById("start-button");
+          const scrollSound = document.getElementById("scroll-sound");
+
+          // Fetch songs JSON
+          fetch("songs/songs.json")
+            .then((response) => {
+              if (!response.ok) throw new Error("Network response was not ok");
+              return response.json();
+            })
+            .then((data) => {
+              songsData = data;
+              // Populate song list
+              songsData.forEach((song, idx) => {
+                const li = document.createElement("li");
+                li.className = "song-item";
+                li.textContent = `${song.name} – ${song.artist}`;
+                li.addEventListener("click", () => {
+                  selectSong(idx);
+                  applyListCurve();
+                });
+                songListEl.appendChild(li);
+              });
+              // Select the first song by default (if any)
+              if (songsData.length > 0) {
+                selectSong(0);
+                applyListCurve();
+              }
+            })
+            .catch((err) => {
+              songsData = songJson;
+              // Populate song list
+              songsData.forEach((song, idx) => {
+                const li = document.createElement("li");
+                li.className = "song-item";
+                li.textContent = `${song.name} – ${song.artist}`;
+                li.addEventListener("click", () => {
+                  selectSong(idx);
+                  applyListCurve();
+                });
+                songListEl.appendChild(li);
+              });
+              // Select the first song by default (if any)
+              if (songsData.length > 0) {
+                selectSong(Math.floor(songJson.length / 2));
+                applyListCurve();
+              }
+            })
+            .finally(() => {
+              //remove the overlay after loading
+              applyListCurve();
+              document
+                .querySelectorAll(".overlay")
+                .forEach((element) => element.remove());
+            });
+
+          // Function to handle song selection
+          function selectSong(index) {
+            if (index < 0 || index >= songsData.length) return;
+            selectedIndex = index;
+            applyListCurve();
+            currentSong = songsData[index];
+            currentDifficulty = null;
+            // Highlight selected item
+            document.querySelectorAll(".song-item").forEach((el, i) => {
+              el.classList.toggle("selected", i === index);
+            });
+            // Scroll carousel to keep selected in view
+            updateCarousel();
+
+            // Load and play video preview
+            videoEl.src = `songs/${currentSong.name}/${currentSong.name}.mp4`;
+            videoEl.load();
+            videoEl.pause();
+            videoEl.currentTime = 0;
+            videoEl.ontimeupdate = null;
+            // After metadata loads, start at sampleStart
+            videoEl.addEventListener("loadedmetadata", function handler() {
+              videoEl.currentTime = currentSong.sampleStart;
+              videoEl.play();
+              videoEl.removeEventListener("loadedmetadata", handler);
+            });
+            // Loop the segment between sampleStart and sampleStart+sampleLength
+            videoEl.ontimeupdate = () => {
+              if (
+                videoEl.currentTime >=
+                currentSong.sampleStart + currentSong.sampleLength
+              ) {
+                videoEl.currentTime = currentSong.sampleStart;
+                videoEl.play();
+              }
+            };
+            // Populate difficulty options
+            diffContainer.innerHTML = "";
+            currentSong.difficulties.forEach((diff, i) => {
+              const input = document.createElement("input");
+              input.type = "radio";
+              input.id = `diff-${currentSong.name}-${i}`;
+              input.name = "difficulty";
+              input.value = diff;
+              const label = document.createElement("label");
+              label.htmlFor = input.id;
+              label.textContent = diff;
+              diffContainer.appendChild(input);
+              diffContainer.appendChild(label);
+            });
+            // disable start button until difficulty is selected
+            startButton.disabled = true;
+            // Update URL hash for song (no difficulty yet)
+            window.location.hash = `${currentSong.name}|`;
+          }
+
+          // Adjust carousel transform to bring selected index into view
+          function updateCarousel() {
+            const items = document.querySelectorAll(".song-item");
+            if (items.length === 0) return;
+            const itemHeight = items[0].offsetHeight + 10; // height + margin
+            const visibleCount = 5; // number of visible items in container
+            let offset = 0;
+            if (songsData.length > visibleCount) {
+              // Center selected if possible, else clamp at top/bottom
+              if (selectedIndex > 2 && selectedIndex < songsData.length - 2) {
+                offset = -(selectedIndex - 2) * itemHeight;
+              } else if (selectedIndex >= songsData.length - 2) {
+                offset = -(songsData.length - visibleCount) * itemHeight;
+              }
+            }
+            songListEl.style.transform = `translateY(${offset}px)`;
+            applyListCurve();
+          }
+
+          // Arrow scroll controls
+          document.getElementById("up-arrow").addEventListener("click", () => {
+            if (selectedIndex > 0) {
+              scrollSound.currentTime = 0;
+              scrollSound.play();
+              selectSong(selectedIndex - 1);
+              applyListCurve();
+            }
+          });
+          document
+            .getElementById("down-arrow")
+            .addEventListener("click", () => {
+              if (selectedIndex < songsData.length - 1) {
+                scrollSound.currentTime = 0;
+                scrollSound.play();
+                selectSong(selectedIndex + 1);
+                applyListCurve();
+              }
+            });
+
+          // Difficulty selection listener
+          diffContainer.addEventListener("change", (e) => {
+            if (e.target.name === "difficulty") {
+              currentDifficulty = e.target.value;
+              // Update URL hash with song and difficulty
+              window.location.hash = `${currentSong.name}|${currentDifficulty}`;
+              // Show the start button
+              startButton.style.display = "inline-block";
+              startButton.disabled = false;
+            }
+          });
+
+          // Start button click appends |SONG_SELECTED to hash
+          startButton.addEventListener("click", () => {
+            window.location.hash += "|SONG_SELECTED";
+          });
+        });
+      </script>
+    </div>
+  </body>
+</html>

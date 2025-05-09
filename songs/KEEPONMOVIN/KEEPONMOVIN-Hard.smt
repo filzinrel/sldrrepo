@@ -1,9 +1,3 @@
-﻿#NOTES:
-     dance-single:
-     :
-     Hard:
-     9:
-     :
 0000
 0000
 0000

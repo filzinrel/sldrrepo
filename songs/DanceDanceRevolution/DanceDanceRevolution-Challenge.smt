@@ -1,9 +1,3 @@
-﻿#NOTES:
-     dance-single:
-     :
-     Challenge:
-     12:
-     :
 0000
 0000
 0000

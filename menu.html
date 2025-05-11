@@ -1526,14 +1526,14 @@
                   li.textContent = `${song.name} – ${song.artist}`;
                   li.addEventListener("click", () => {
                     selectSong(idx);
-                    applyListCurve();
+                    //applyListCurve();
                   });
                   songListEl.appendChild(li);
                 });
               // Select the first song by default (if any)
               if (songsData.length > 0) {
                 selectSong(0);
-                applyListCurve();
+                //applyListCurve();
               }
             })
             .catch((err) => {
@@ -1545,7 +1545,7 @@
                 li.textContent = `${song.name} – ${song.artist}`;
                 li.addEventListener("click", () => {
                   selectSong(idx);
-                  applyListCurve();
+                  //applyListCurve();
                 });
                 songListEl.appendChild(li);
               });
@@ -1559,7 +1559,7 @@
                     ? Math.floor(songJson.length / 2)
                     : indexFromUrl
                 );
-                applyListCurve();
+                //applyListCurve();
               }
             })
             .finally(() => {
@@ -1643,7 +1643,7 @@
             const containerHeight = container.clientHeight;
             // position = center of container     minus     half an item     minus     selectedIndex * itemHeight
             const yOffset =
-              containerHeight / 2 - itemHeight / 2 - selectedIndex * itemHeight;
+              containerHeight / 6 - itemHeight / 2 - selectedIndex * itemHeight;
 
             // 3) Apply vertical translate
             listEl.style.transform = `translateY(${yOffset}px)`;
@@ -1658,7 +1658,6 @@
               scrollSound.currentTime = 0;
               scrollSound.play();
               selectSong(selectedIndex - 1);
-              applyListCurve();
             }
           });
           document
@@ -1668,7 +1667,6 @@
                 scrollSound.currentTime = 0;
                 scrollSound.play();
                 selectSong(selectedIndex + 1);
-                applyListCurve();
               }
             });
 

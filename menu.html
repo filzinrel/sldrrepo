@@ -153,28 +153,26 @@
       }
       /* Song list container with fixed height */
       #song-list-container {
+        perspective: 800px; /* gives depth */
         height: 512px;
         margin: 1rem;
         padding: 1rem;
-        overflow: visible; /* so rotated items aren’t clipped */
+        overflow: hidden; /* so rotated items aren’t clipped */
         margin: 10px 0;
       }
       /* Actual song list */
       #song-list {
+        transform-style: preserve-3d; /* children keep 3D transforms */
         list-style: none;
         padding: 0;
         margin: 0;
         transition: transform 0.5s ease;
-        transform-style: preserve-3d; /* children keep 3D transforms */
       }
       /* Each song item */
       .song-item {
-        /* …pivot on the right edge */
-        transform-origin: right center;
-        /* keep the rest as-is */
+        transform-origin: right center; /* pivot around left edge */
         transition: transform 0.5s ease;
         padding: 10px;
-        margin: 5px 0;
         text-align: center;
         font-weight: bold;
         border-radius: 4px;
@@ -1446,6 +1444,33 @@
             directory: "xenon",
           },
         ];
+        /**
+         * Reads window.location.hash and returns the song name (decoded).
+         * Example hash: "#MySong|Hard"  → returns "MySong"
+         * If there is no hash or no song part, returns an empty string.
+         */
+        function getSongTitleFromUrl() {
+          const hash = window.location.hash; // e.g. "#MySong|Hard"
+          if (!hash || hash.length < 2) return ""; // no hash
+          // strip leading "#" and split on "|"
+          const parts = hash.substring(1).split("|"); // e.g. ["MySong", "Hard"]
+          // URL‐decode in case you encoded spaces or special chars
+          return decodeURIComponent(parts[0] || "");
+        }
+
+        /**
+         * Reads window.location.hash and returns the difficulty (decoded),
+         * or empty string if not present.
+         * Example hash: "#MySong|Hard"   → returns "Hard"
+         *               "#MySong"        → returns ""
+         */
+        function getDifficultyFromUrl() {
+          const hash = window.location.hash;
+          if (!hash || hash.length < 2) return "";
+          const parts = hash.substring(1).split("|");
+          // parts[1] may be undefined
+          return parts[1] ? decodeURIComponent(parts[1]) : "";
+        }
         function applyListCurve() {
           const items = document.querySelectorAll(".song-item");
 
@@ -1459,14 +1484,11 @@
             let perStep = 5;
             // positive rotation now leans **left**-side items toward the right
             let angle = offset * perStep;
-            const maxAngle = 90;
+            const maxAngle = 30;
             angle = Math.max(-maxAngle, Math.min(maxAngle, angle));
-            if (angle > 0) angle = -angle; // flip the sign for right-side items
+            //if (angle > 0) angle = -angle; // flip the sign for right-side items
             // keep the same z-shift if you like
             const zShift = Math.cos((angle * Math.PI) / 180) * 200;
-            console.log(
-              `Item ${i}: offset=${offset}, angle=${angle}, zShift=${zShift}`
-            );
 
             el.style.transform = `
   rotateY(${angle}deg)
@@ -1496,16 +1518,18 @@
             .then((data) => {
               songsData = data;
               // Populate song list
-              songsData.forEach((song, idx) => {
-                const li = document.createElement("li");
-                li.className = "song-item";
-                li.textContent = `${song.name} – ${song.artist}`;
-                li.addEventListener("click", () => {
-                  selectSong(idx);
-                  applyListCurve();
+              songsData
+                .filter((a) => a.directory != "")
+                .forEach((song, idx) => {
+                  const li = document.createElement("li");
+                  li.className = "song-item";
+                  li.textContent = `${song.name} – ${song.artist}`;
+                  li.addEventListener("click", () => {
+                    selectSong(idx);
+                    applyListCurve();
+                  });
+                  songListEl.appendChild(li);
                 });
-                songListEl.appendChild(li);
-              });
               // Select the first song by default (if any)
               if (songsData.length > 0) {
                 selectSong(0);
@@ -1513,7 +1537,7 @@
               }
             })
             .catch((err) => {
-              songsData = songJson;
+              songsData = songJson.filter((a) => a.directory != "");
               // Populate song list
               songsData.forEach((song, idx) => {
                 const li = document.createElement("li");
@@ -1525,9 +1549,16 @@
                 });
                 songListEl.appendChild(li);
               });
-              // Select the first song by default (if any)
               if (songsData.length > 0) {
-                selectSong(Math.floor(songJson.length / 2));
+                const songName = getSongTitleFromUrl();
+                const indexFromUrl = songsData.findIndex(
+                  (item) => item.directory === songName
+                );
+                selectSong(
+                  indexFromUrl == -1
+                    ? Math.floor(songJson.length / 2)
+                    : indexFromUrl
+                );
                 applyListCurve();
               }
             })
